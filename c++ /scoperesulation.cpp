@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int globalVar = 10;
+int globalVar = 15;
 
 
 class MyClass {
