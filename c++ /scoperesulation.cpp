@@ -3,7 +3,7 @@ using namespace std;
 
 int globalVar = 10;
 
-// Class definition
+
 class MyClass {
 public:
     // Member function declaration
