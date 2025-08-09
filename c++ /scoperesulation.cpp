@@ -18,7 +18,7 @@ void MyClass::display() {
 
 int main() {
     // Local variable with the same name as the global variable
-    int globalVar = 20;
+    int globalVar = 25;
 
     // Accessing the local variable
     cout << "Local variable in main: " << globalVar << endl;
