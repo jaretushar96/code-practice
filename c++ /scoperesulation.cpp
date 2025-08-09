@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-// Global variable
 int globalVar = 10;
 
 // Class definition
