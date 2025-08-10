@@ -43,7 +43,7 @@ unary u1,u2(30,50,100);
 cout<<" \nvalue of 1 obj before ovarload =";
 u1.putdata();
 ++u1;
-cout<<"\n value after overload 1obj =";
+cout<<"\n value after overload overload obj 1 =";
 u1.putdata();
 cout <<"\nvalues of 2 obj before overload =";
 u2.putdata();
