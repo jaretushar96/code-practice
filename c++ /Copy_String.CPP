@@ -1,6 +1,6 @@
 #include<iostream>
 #include<string.h>
-#include<conio.h>
+
 using namespace std;
 class stringconstructor
 {
@@ -19,7 +19,7 @@ void putdata()
 cout<<"\n copied string ="<<s;
 }
 };
-int main()
+int main()                                              
 {
 
 char str[20];
