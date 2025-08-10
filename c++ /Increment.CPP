@@ -1,7 +1,7 @@
 #include<iostream>
 
 using namespace std;
-class postincr
+class postincrement
 {
 private :
 int a,b,c;
@@ -25,7 +25,7 @@ void putata()
 int main()
 {
 
-postincr i ;
+postincrement  i ;
 i.getdata();
 i++;
 i.putata();
