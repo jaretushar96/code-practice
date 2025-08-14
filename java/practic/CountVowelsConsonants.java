@@ -3,7 +3,7 @@ public class CountVowelsConsonants {
         String str = "Tushar jare 123 aeiou mnb";
         int vowels = 0, consonants = 0;
 
-        str = str.toLowerCase();  // Make all characters lowercase
+        str = str.toLowerCase();  
 
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
