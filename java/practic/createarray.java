@@ -13,7 +13,8 @@ public class createarray {
     
             int[] arr = new int[size];
             System.out.println("Enter array elements:");
-            for (int i = 0; i < size; i++) {
+            for (int i = 0; i < size; i++) 
+            {
                 arr[i] = sc.nextInt();
             }
     
