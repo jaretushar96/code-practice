@@ -19,7 +19,8 @@ public class createarray {
             }
     
             System.out.println("Array elements are:");
-            for (int i = 0; i < size; i++) {
+            for (int i = 0; i < size; i++) 
+            {
                 System.out.print(arr[i] + " ");
             }
     
