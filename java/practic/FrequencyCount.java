@@ -9,8 +9,10 @@ public class FrequencyCount {
             if (visited[i]) continue;
 
             int count = 1;
-            for (int j = i + 1; j < arr.length; j++) {
-                if (arr[i] == arr[j]) {
+            for (int j = i + 1; j < arr.length; j++) 
+            {
+                if (arr[i] == arr[j]) 
+                {
                     count++;
                 visited[j] = true;
                 
