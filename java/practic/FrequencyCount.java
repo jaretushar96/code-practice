@@ -1,6 +1,7 @@
 
 public class FrequencyCount {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         int[] arr = {1, 2, 2, 3, 1, 4};
         boolean[] visited = new boolean[arr.length];
 
