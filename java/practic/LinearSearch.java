@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
 public class LinearSearch {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         int[] arr = {10, 25, 30, 45, 50};
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number to search: ");
