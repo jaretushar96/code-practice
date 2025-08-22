@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class LinearSearch {
+public class LinearSearch 
+{
     public static void main(String[] args) 
     {
         int[] arr = {10, 25, 30, 45, 50};
@@ -9,8 +10,10 @@ public class LinearSearch {
         int target = sc.nextInt();
         int c=0;
         // boolean found = false;
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] == target) {
+        for (int i = 0; i < arr.length; i++) 
+        {
+            if (arr[i] == target) 
+            {
                 System.out.println("Found at index: " + i);
                 // found = true;
                 c++;
@@ -18,7 +21,8 @@ public class LinearSearch {
             }
         }
 
-        if (c==0) {
+        if (c==0) 
+        {
             System.out.println("Not found");
         }
 
