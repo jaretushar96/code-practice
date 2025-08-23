@@ -1,5 +1,6 @@
 public class MinMaxArray {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         int[] arr = {12, 5, 8, 1, 19};
 
         int min = arr[0];
