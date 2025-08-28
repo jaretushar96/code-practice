@@ -1,0 +1,23 @@
+#cont {
+    height: 300px;
+    width: 80%;
+    border: 2px solid black;
+    background-color: rgb(224, 233, 233);
+    margin: 10px auto;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    flex-direction: row;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    align-content: space-evenly;
+}
+h1 {
+    text-align: center;
+}
+#cont div {
+    height: 50px;
+    width: 300px;
+    color: white;
+    text-align: center;
+}
