@@ -1,0 +1,41 @@
+.box {
+    height: 100px;
+    width: 300px;
+    background-color: skyblue;
+
+    /* animation-name: fontanimation;
+     animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: 3;
+    animation-direction: normal; */
+
+     /* animation-name:  colour;
+
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: 3;
+    animation-direction: normal; */
+
+    animation:colour 4s ease-in 0s infinite normal;
+}
+
+@keyframes fontanimation {
+    form{
+        front-size:20px;
+    }
+    to{
+        font-size: 30px;
+    }
+}
+
+@keyframes colour
+{
+    form{
+        background-color: blueviolet;
+    }
+    to{
+        background-color: pink;
+    }
+}
