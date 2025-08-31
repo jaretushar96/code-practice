@@ -18,18 +18,22 @@
     animation-iteration-count: 3;
     animation-direction: normal; */
 
-    animation:colour 4s ease-in 0s infinite normal;
+    animation:fontanimation 4s ease-in 0s infinite normal;
 }
 
 @keyframes fontanimation {
     form{
         front-size:20px;
+        background-color: blueviolet;
+        width: 300px;
     }
     to{
         font-size: 30px;
+        background-color: pink;
+        width: 140px;
     }
 }
-
+/* 
 @keyframes colour
 {
     form{
@@ -38,4 +42,4 @@
     to{
         background-color: pink;
     }
-}
+} */
