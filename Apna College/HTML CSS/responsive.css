@@ -1,0 +1,26 @@
+h1{
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+@media(width:400px ){
+h1{
+    background-color: red;
+    color: white;
+}}
+
+@media( min-width:401px){
+    h1{
+        background-color: rgb(100, 228, 100);
+        border-radius: 50px;
+        color: blue;
+    }
+}
+
+@media( max-width:350px){
+    h1{
+        background-color: rgb(79, 223, 204);
+        border-radius: 80px;
+        color:rgb(226, 43, 144);
+    }
+}
