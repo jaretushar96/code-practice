@@ -26,9 +26,7 @@ img{
 
 @media( min-width:300px) and (max-width:390px){
 .cards{
-
-        
-        height: 480px;
+    height: 480px;
     width: 300px;
     border: 2px solid black;
     margin:20px;
