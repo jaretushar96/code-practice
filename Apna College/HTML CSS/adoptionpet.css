@@ -1,0 +1,50 @@
+.pets{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.cards{
+    height: 580px;
+    width: 500px;
+    border: 2px solid black;
+    margin: 90px;
+    padding: 5px;
+    border-radius: 30px;
+    font-size: 20px;
+
+
+}
+
+img{
+    width: 96%;
+    height: 50%;
+    margin:2%;
+    border-radius: 30px;
+}
+
+
+@media( min-width:300px) and (max-width:390px){
+.cards{
+
+        
+        height: 480px;
+    width: 300px;
+    border: 2px solid black;
+    margin:20px;
+    padding: 4px;
+    border-radius: 30px;
+    font-size: 10px;
+    /* display: flex; */
+    /* justify-content: space-evenlys; */
+    }
+}
+@media( min-width:300px) and (max-width:390px){
+.pets{
+
+        
+      flex-direction: column;
+         justify-content: center;
+    
+    }
+}
