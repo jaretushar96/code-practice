@@ -31,7 +31,7 @@ public class Voting_System
                     System.out.println("Invalid choice!");
             }
 
-            System.out.print("Do you want to continue voting? (Y/N): ");
+            System.out.print("Do you want to continue voting? (Y/N) : ");
             choice = sc.next().charAt(0);
         }
 
