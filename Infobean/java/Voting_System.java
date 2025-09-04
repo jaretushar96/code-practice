@@ -14,7 +14,7 @@ public class Voting_System
         char choice = 'Y';
 
         while (choice == 'Y' || choice == 'y') {
-            System.out.println("\n---- Voting Menu ----\n1. Om Phopse (BJP)\n2. Viraj Bered (NCP)\n3. Rohit Mhaske (MNS)\nEnter your choice (1-3): ");
+            System.out.println("\n---- Voting Menu ----\n1. Om Phopse (BJP)\n2. Viraj Bered (NCP)\n3. Rohit Mhaske (MNS)\nEnter your choice (1-3):  ");
             int ch = sc.nextInt();
 
             switch (ch) {
