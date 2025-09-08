@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main_box{
+    background: url(https://img.freepik.com/free-photo/black-camera-lens-brown-wooden-table_417767-6.jpg?semt=ais_incoming&w=740&q=80);
+    height: 100vh;
+    background-size: cover;
+}
+
+.b1{
+    color: wheat;
+    font-size: 30px;
+    font-weight:700;
+    position: absolute;
+    left: 16px;
+    line-height: 60px;
+}
+.slide_menu{
+    position: fixed;
+    left:-350px;
+    height: 100vh;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+    transition: all 0.3s linear;
+  
+}
+.slide_menu .logo {
+   position: absolute;
+   width: 100%;
+   height: 60px;
+   line-height: 60px;
+       box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+}
+.slide_menu .logo a {
+position: absolute;
+left: 50px;
+
+color: wheat;
+text-decoration: none;
+font-size: 20px;
+font-family: 500;
+
+
+}
+.slide_menu .b2{
+    color: gray;
+    font-size: 30px;
+    line-height: 60px;
+    position: absolute;
+    left: 250px;
+    /* opacity: 0; */
+    cursor: pointer;
+}
+
+.slide_menu .menu{
+    color: wheat;
+    position: absolute;
+    width: 100%;
+    top: 80px;
+
+}
+
+.slide_menu .menu li {
+    margin-top: 6px;
+    padding: 15px 20px;
+  
+}
+
+
+.slide_menu .menu li:hover {
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+
+.slide_menu .menu i,a{
+    color: wheat;
+    text-decoration: none;
+    font-size: 21px}
+
+    .slide_menu .menu i{
+        padding: 4px;
+    }
+
+   .slide_menu .social {
+    color: wheat;
+    opacity: 0.5;
+    position: absolute;
+    left: 25%;
+    bottom: 50px;
+}
+
+.slide_menu .social ul {
+    list-style: none;
+    display: flex;           
+    flex-direction: row;
+    gap: 15px;               
+    justify-content: center; 
+    align-items: center;
+}
+
+.slide_menu .social ul li a {
+    color: wheat;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+  
+
+    #check{
+        display: none;
+
+    }
+    .b2 :hover{
+        font-size: 30px;
+          transition: all 0.3s linear;
+    }
+
+    .slide_menu .social :hover{
+        opacity: 1;
+        color: white;
+        
+       
+    }
+    #check:checked ~.slide_menu{
+        left:0;
+    }
+     #check:checked ~.b1{
+        opacity: 0;
+     }
+
+   
+
+    
