@@ -2,14 +2,14 @@ public class PerfectNumber {
     public static void main(String[] args) 
     {
         int num = 14;
-        int sum = 0;
+        int s = 0;
 
         for (int i = 1; i < num; i++) 
         {
-            if (num % i == 0)
-                sum += i;
+            if (s % i == 0)
+                s += i;
         }
 
-        System.out.println(num + (sum == num ? " is a Perfect Number" : " is not a Perfect Number"));
+        System.out.println(num + (s == num ? " is a Perfect Number" : " is not a Perfect Number"));
     }
 }
