@@ -7,7 +7,7 @@ public class PerfectNumber {
         for (int i = 1; i < num; i++) 
         {
             if (s % i == 0)
-                s += i;
+                s=s+ i;
         }
 
         System.out.println(num + (s == num ? " is a Perfect Number" : " is not a Perfect Number"));
