@@ -9,7 +9,6 @@ public class PerfectNumber {
             if (s % i == 0)
                 s=s+ i;
         }
-
-        System.out.println(num + (s == num ? " is a Perfect Number" : " is not a Perfect Number"));
+         System.out.println(num + (s == num ? " is a Perfect Number" : " is not a Perfect Number"));
     }
 }
