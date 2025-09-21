@@ -9,7 +9,8 @@ public class calculator
         Scanner sc = new Scanner(System.in);
 
         int choice;
-        while (true) {
+        while (true) 
+        {
             System.out.println("\n----- Calculator -----");
             System.out.println("1. Addition");
             System.out.println("2. Subtraction");
