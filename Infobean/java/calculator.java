@@ -21,12 +21,14 @@ public class calculator {
             System.out.print("Enter your choice: ");
             choice = sc.nextInt();
 
-            if (choice == 8) {
+            if (choice == 8) 
+            {
                 System.out.println("Exiting Calculator...");
                 break;
             }
 
-            switch (choice) {
+            switch (choice) 
+            {
                 case 1:
                     System.out.print("Enter two numbers: ");
                     int a1 = sc.nextInt();
