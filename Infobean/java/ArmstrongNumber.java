@@ -29,8 +29,12 @@ public class ArmstrongNumber
         }
 
         if (num == sum)
+        {
             System.out.println(num + " is an Armstrong Number.");
+        }  
         else
+        {
             System.out.println(num + " is NOT an Armstrong Number.");
-    }
+        }
+        }
 }
