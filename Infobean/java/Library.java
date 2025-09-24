@@ -2,7 +2,8 @@
 import java.util.*;
 import java.util.Scanner;
 
-public class Library {
+public class Library 
+{
     
     
     static String []user=new String[10];
