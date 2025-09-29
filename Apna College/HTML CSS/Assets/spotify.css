@@ -156,8 +156,52 @@ a
   height: 2rem;
   margin-top: 1.5rem;
   font-size: 0.8rem;
-  font-weight: 1000;
+  font-weight: 1000; 
+}
+.badge i{
+  font-size: 1.25rem;
+  margin-right: 10px;
+  color: #000;
+}
+.sticky-nav{
 
+  position: sticky; 
+  top: 0;
+  background-color:#121212;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+
+}
+/* .sticky-button{
+  width:50%;
+  justify-content: space-between;
  
+} */
+.badge1
+{
+   background-color: #fff;
+  border: none;
+  border-radius: 100px;
+  color: #000;
+  width: 11rem;
+  height: 2rem;
+  font-size: 0.8rem;
+  font-weight: 1000;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 1.5rem 0 1.5rem ;
+
   
+
+}
+.badge1 i{
+  font-size: 1.25rem;
+  margin-right: 10px;
+  color: #000;
+}
+.sticky-button i
+{
+  margin-right: 2rem;
 }
