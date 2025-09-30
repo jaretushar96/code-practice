@@ -220,4 +220,9 @@ a
   border-radius: 0.5rem;
 }
 
-
+.card-img
+{
+  width: 100%;
+  object-fit: contain;
+   border-radius: 0.5rem;
+}
