@@ -173,6 +173,7 @@ a
   justify-content: space-between;
   align-items: center;
   height: 4rem;
+  z-index: 10;
 
 }
 /* .sticky-button{
@@ -210,6 +211,7 @@ a
 .card-container
 {
   display: flex;
+  flex-wrap: wrap;
 }
 
 
@@ -218,6 +220,8 @@ a
   background-color: #232323;
   width: 180px;
   border-radius: 0.5rem;
+  padding: 0.75rem;
+  margin: 0.5rem 0.75rem;
 }
 
 .card-img
@@ -225,4 +229,35 @@ a
   width: 100%;
   object-fit: contain;
    border-radius: 0.5rem;
+}
+.card-container{
+  margin: 1rem 0 1rem 0;
+  display: flex;
+  
+}
+.card-tital{
+    font-weight: 600;
+}
+.card-info{
+  padding: 0.5rem 0 0.85rem 0;
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.footer
+{
+  height: 200px;
+ display: flex;
+  
+    align-items: center;
+}
+
+.line
+{
+ 
+   width: 90%;
+  height: 50%;
+  border-top:1px solid wheat;
+ 
+
 }
