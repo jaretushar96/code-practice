@@ -400,4 +400,35 @@ opacity: 1;
 
 
 
+@media (max-width: 1000px) {
+  .badge1-hide {
+    display: none;
+  }
+  .backward_icon{
+     display: none;
+  }
+  .alb-icons{
+    display: none;
+  }
+  .icon2{
+     display: none !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .album {
+    display: none;
+  }
+  .controls{
+    display: none;
+  }
+  .slidebar
+  {
+    display: none;
+  }
+  
+
+}
+
+
 
