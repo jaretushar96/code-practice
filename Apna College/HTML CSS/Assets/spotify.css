@@ -375,3 +375,29 @@ opacity: 0.7;
  
 opacity: 1;
 }
+.right-controls{
+  display: flex;
+  font-size: 1.5rem;
+  padding: 2rem;
+  
+}
+.icon2{
+margin-right: 0.5rem;
+opacity: 0.7;
+ 
+}
+.icon2:hover{
+
+opacity: 1;
+ 
+}
+.volume{
+  height: 0.25rem;
+  margin-top: 0.6rem;
+  align-items: center;
+}
+
+
+
+
+
