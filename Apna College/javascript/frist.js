@@ -52,3 +52,11 @@ else
                  
                let mi=mon.concat(cars);  
             console.log(mi);
+
+
+             console.log(mon.reverse());
+
+                   console.log(cars.slice(2));
+                   console.log(cars.slice(2,4));
+
+
