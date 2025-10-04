@@ -64,3 +64,34 @@ else
                     console.log(cars.slice(-3));   // total indess is 6 if we gove -2 then it acts like 6-2 =4 and form 4 the index give 
 
 
+
+             console.log(cars);
+                  console.log(cars.splice(2));
+                         console.log(cars);
+                   console.log(cars.splice(1,3));
+                          console.log(cars);
+
+
+
+              let fri=["Tushar","shubham","vikas","visvas","Dipak","Pandu","Pritam"]    ;        
+                   console.log(fri);
+
+                  console.log(fri.sort());
+
+                   console.log(fri.reverse().indexOf("vikas"));
+
+ let t1=['a','b','c','d'];
+   console.log(t1);
+   let t2=t1;
+      console.log(t2);
+      t2.push('e');
+      console.log(t1);
+      t1.shift();
+      console.log(t2);
+
+
+
+
+
+                 
+
