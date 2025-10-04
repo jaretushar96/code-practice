@@ -47,3 +47,8 @@ else
           mon.unshift('july');  
 
             console.log(mon);
+              console.log(mon.indexOf("july")); 
+                 console.log(mon.includes("july"));  
+                 
+               let mi=mon.concat(cars);  
+            console.log(mi);
