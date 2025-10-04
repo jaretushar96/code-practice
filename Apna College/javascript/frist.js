@@ -56,7 +56,11 @@ else
 
              console.log(mon.reverse());
 
+
+
+             console.log(cars);
                    console.log(cars.slice(2));
                    console.log(cars.slice(2,4));
+                    console.log(cars.slice(-3));   // total indess is 6 if we gove -2 then it acts like 6-2 =4 and form 4 the index give 
 
 
