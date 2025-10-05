@@ -50,7 +50,7 @@ while(true){
     }
 
 
-
+    choice =prompt(" enter your choice form list   ");
 
 
 }
