@@ -2,7 +2,8 @@ let todo=[];
 
 let choice =prompt("Its To do list enter your choice  ");
 
-while(true){
+while(true)
+{
 
      if(choice=="exit")
     {
@@ -45,7 +46,8 @@ while(true){
     }
 
    
-    else{
+    else
+    {
         console.log("Wrong choice ");
     }
 
