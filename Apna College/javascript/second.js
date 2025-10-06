@@ -84,3 +84,37 @@ console.log(stud.tushar.marks);
 console.log(stud.tushar);
 
 
+
+// without key pairs 
+
+const stud10 =
+[
+
+    
+    {
+        surname :"Jare",
+        city : "pune",
+        rollNo :51,
+        marks :[99,98,88,96]
+
+    },
+  
+    {
+        surname :"Chande",
+        city : "Shevgaon",
+        rollNo :55,
+
+    },
+   
+    {
+
+        surname :"Alhat",
+        city : "Nager",
+        rollNo :22,
+    }
+
+]
+
+console.log(stud10[2].surname);
+
+
