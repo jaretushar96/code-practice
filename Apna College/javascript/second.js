@@ -118,3 +118,27 @@ const stud10 =
 console.log(stud10[2].surname);
 
 
+
+
+
+//  Math methods 
+
+console.log(Math.abs(5.5));
+console.log(Math.abs(-5.5));
+
+console.log(Math.pow(3,2));
+
+console.log(Math.floor(3.2));
+console.log(Math.floor(3.9));
+console.log(Math.floor(-3.2));
+
+console.log(Math.ceil(7.9));
+console.log(Math.ceil(7.2));
+console.log(Math.ceil(-7.9));
+
+console.log(Math.random());
+console.log(Math.random()*10);   // 0 to 9 but in float form 
+console.log(Math.floor(Math.random()*10)+1);    // 0 to 10 in int 
+console.log(Math.floor(Math.random()*5)+21);     //   form 21 to 25
+console.log(Math.floor(Math.random()*(50 -40+1))+40);  // 40 to 50  
+
