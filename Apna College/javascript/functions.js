@@ -46,6 +46,9 @@ fu(10);
 
 
 
+
+
+
 // methods ( function in object )
 
 
