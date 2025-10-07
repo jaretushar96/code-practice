@@ -92,4 +92,33 @@ const calculator1 ={
     console.log(calculator.add(9,5));
     console.log(calculator.sub(14,3));
 
+  
+
+     //  Arrows Functions
+
+
+      console.log(" this is example of arrow fun");
+     let power=(a,b)=>
+     {
+        return a**b;
+     }
+
+     let power1=(a,b)=>a**b    // when we want to return value we can do like this 
      
+
+      let name1=str=>     // when only 1 argument not need to give ()
+     {
+        console.log(str);
+     }
+
+      let name2= () =>     // when No argument pass , need to give ()
+     {
+        console.log("jare");
+     }
+
+     console.log(power(2,3));
+       console.log(power1(2,4));
+     name1("Tushar");
+     name2();
+
+
