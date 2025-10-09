@@ -224,6 +224,11 @@ console.log(" square of numbers  ");
 console.log(square(4));
 
 
+
+
+// qustion 2 use setInterval function and strop exucation of that function 
+
+
 console.log("Ahmednager collage after 2 sec   ");
 
 let id1=setInterval( ()=>
