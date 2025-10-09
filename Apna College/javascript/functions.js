@@ -122,3 +122,97 @@ const calculator1 ={
      name2();
 
 
+
+// //   SetTimeout Function
+
+// console.log(" hii ");
+
+// setTimeout( ()=> 
+// {
+//     console.log(" Tushar ");
+// },4000)
+
+// console.log(" Welcome");
+
+
+
+// console.log(" hello ");
+
+// setTimeout( function greed9 ()
+//  {
+//     console.log(" Dipak ");
+// },4000)
+
+// console.log(" Welcome");
+
+
+
+
+// // Set interval 
+// // excute fun againg & agin after time 
+
+
+// console.log(" Example of set interval ");
+
+
+// console.log(" Welcome ");
+
+// setInterval( ()=> 
+// {
+//     console.log(" Developer  ");
+// },100000)
+   
+
+
+
+//  Use of this in normal and arrow function 
+
+
+console.log(" Use of this in normal and arrow function ");
+
+const infobean =
+{
+    name :"Sarthak",
+    marks :90,
+    prop :this, // global scope 
+                // this keyword refers window object(default) 
+    getName : 
+              function (){
+                console.log(this);
+                // object is printed because this refers 
+                return this.name;
+                //   this return the name 
+              },
+     getMarks : ()=>{
+            console.log(this);
+                return this.marks;
+                // not give marks because in Arrow this refers  who call parent 
+     },
+     
+     getInfo1 : function()
+     {
+        setTimeout(()=>{
+            console.log(this); // student
+        },10 )
+     },
+
+     getInfo2 : function()
+     {
+        setTimeout(function (){
+            console.log(this); // Window
+        },10 )
+     },
+     
+     
+
+
+
+
+}
+
+console.log(infobean.getName());
+console.log(infobean.getMarks());
+console.log(infobean.getInfo1());
+console.log(infobean.getInfo2());
+
+
