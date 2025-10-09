@@ -211,3 +211,34 @@ console.log(infobean.getInfo1());
 console.log(infobean.getInfo2());
 
 
+
+// Arrow function for return square of number 
+
+console.log(" square of numbers  ");
+
+ square= (n)=>
+{
+     return n*n;
+}
+
+console.log(square(4));
+
+
+console.log("Ahmednager collage after 2 sec   ");
+
+let id1=setInterval( ()=>
+{
+    console.log(" Ahmednager College ");
+},2000);
+
+setTimeout(()=>{
+    clearInterval(id1);  // we stored id of Setinterval in id1 and
+                         // stop setinteral using clearInterval
+},10000);
+
+
+
+
+
+
+
