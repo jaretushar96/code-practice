@@ -202,11 +202,6 @@ const infobean =
             console.log(this); // Window
         },10 )
      },
-     
-     
-
-
-
 
 }
 
