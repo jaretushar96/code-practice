@@ -41,8 +41,10 @@ public class TreasureHunt
 
         // Assign numeric values to treasures
         treasureValue = new int[N][M];
-        for (int i = 0; i < N; i++) {
-            for (int j = 0; j < M; j++) {
+        for (int i = 0; i < N; i++) 
+        {
+            for (int j = 0; j < M; j++) 
+            {
                 char c = grid[i][j];
                 if (c == '$') treasureValue[i][j] = pearl;
                 else if (c == '*') treasureValue[i][j] = platinum;
