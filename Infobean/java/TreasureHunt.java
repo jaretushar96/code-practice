@@ -17,9 +17,11 @@ public class TreasureHunt
         sc.nextLine();
 
         grid = new char[N][M];
-        for (int i = 0; i < N; i++) {
+        for (int i = 0; i < N; i++)
+         {
             String line = sc.nextLine();
-            for (int j = 0; j < M; j++) {
+            for (int j = 0; j < M; j++)
+             {
                 grid[i][j] = line.charAt(j * 2); // skip spaces
             }
         }
