@@ -69,21 +69,25 @@ public class TreasureHunt
 
         visited[x][y] = true;
 
-        for (int dir = 0; dir < 3; dir++) {
+        for (int dir = 0; dir < 3; dir++) 
+        {
             int nx = x + dx[dir];
             int ny = y + dy[dir];
 
-            if (nx >= 0 && nx < N && ny >= 0 && ny < M && grid[nx][ny] != '#') {
+            if (nx >= 0 && nx < N && ny >= 0 && ny < M && grid[nx][ny] != '#') 
+            {
                 int finalX = nx;
 
                 // Apply gravity: slide down until stable cell or rock
                 while (finalX + 1 < N && grid[finalX + 1][ny] != '#' &&
                         (grid[finalX + 1][ny] == '*' || grid[finalX + 1][ny] == '$' ||
-                         grid[finalX + 1][ny] == '%' || grid[finalX + 1][ny] == '+')) {
+                         grid[finalX + 1][ny] == '%' || grid[finalX + 1][ny] == '+')) 
+                {
                     finalX++;
                 }
 
-                if (!visited[finalX][ny]) {
+                if (!visited[finalX][ny]) 
+                {
                     dfs(finalX, ny, steps + 1, collected, visited);
                 }
             }
