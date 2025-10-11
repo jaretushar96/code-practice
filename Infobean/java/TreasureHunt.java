@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
-public class TreasureHunt {
+public class TreasureHunt 
+{
     static int N, M, K;
     static char[][] grid;
     static int[][] treasureValue;
     static int maxTreasure = 0;
 
-    // Directions: left, right, up
     static int[] dx = {0, 0, -1};
     static int[] dy = {-1, 1, 0};
 
