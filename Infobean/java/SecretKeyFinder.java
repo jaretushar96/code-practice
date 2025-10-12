@@ -94,7 +94,8 @@ public class SecretKeyFinder
         for (int i = 1; i <= keyLength; i++) cluesPerTime[i] = new ArrayList<>();
 
        
-        for (int i = 0; i < numClues; i++) {
+        for (int i = 0; i < numClues; i++) 
+        {
             int timeStep = sc.nextInt();
             int x1 = sc.nextInt();
             int y1 = sc.nextInt();
@@ -106,16 +107,20 @@ public class SecretKeyFinder
         boolean[][] visited = new boolean[rows][cols];
 
 
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < cols; j++) {
+        for (int i = 0; i < rows; i++) 
+        {
+            for (int j = 0; j < cols; j++) 
+            {
                 dfs(i, j, 1, visited, new StringBuilder());
             }
         }
 
       
-        if (foundKeys.size() == 1) {
+        if (foundKeys.size() == 1)
+         {
             System.out.println(foundKeys.iterator().next());
-        } else {
+        } else 
+        {
             System.out.println("Not enough clues");
         }
     }
