@@ -4,7 +4,8 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
 
-public class SecretKeyFinder {
+public class SecretKeyFinder 
+{
 
     static int rows, cols, keyLength, numClues;
     static char[][] grid;
@@ -14,7 +15,8 @@ public class SecretKeyFinder {
     static Set<String> foundKeys = new HashSet<>();
 
     
-    static class Clue {
+    static class Clue 
+    {
         int x1, y1, x2, y2;
         Clue(int x1, int y1, int x2, int y2) {
             this.x1 = x1 - 1; 
