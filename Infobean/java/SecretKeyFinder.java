@@ -51,7 +51,8 @@ public class SecretKeyFinder
         visited[r][c] = true;
         path.append(grid[r][c]);
 
-        if (time == keyLength) {
+        if (time == keyLength) 
+        {
             foundKeys.add(path.toString());
         } else {
             for (int i = 0; i < 4; i++) {
@@ -67,7 +68,8 @@ public class SecretKeyFinder
         path.deleteCharAt(path.length() - 1);
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Scanner sc = new Scanner(System.in);
 
       
