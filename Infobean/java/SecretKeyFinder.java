@@ -35,8 +35,10 @@ public class SecretKeyFinder
     }
 
 
-    static boolean allowedAtTime(int r, int c, int time) {
-        for (Clue clue : cluesPerTime[time]) {
+    static boolean allowedAtTime(int r, int c, int time) 
+    {
+        for (Clue clue : cluesPerTime[time]) 
+        {
             if (clue.forbids(r, c)) return false;
         }
         return true;
