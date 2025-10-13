@@ -32,7 +32,8 @@ public class Main
         }
 
         BigInteger rem = k;
-        for (int i = n; i >= 1; i--) {
+        for (int i = n; i >= 1; i--) 
+        {
             BigInteger[] div = rem.divideAndRemainder(fact[i - 1]);
             int idx = div[0].intValue();
             result.add(temp.remove(idx));
@@ -42,13 +43,15 @@ public class Main
         return result;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
         List<String> labels = new ArrayList<>();
         List<Integer> weights = new ArrayList<>();
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) 
+        {
             labels.add(sc.next());
             weights.add(sc.nextInt());
         }
@@ -56,7 +59,8 @@ public class Main
         BigInteger k = BigInteger.valueOf(kInput - 1);
 
         long baseCost = 0;
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) 
+        {
             baseCost += (long) weights.get(i) * (i + 1);
         }
 
