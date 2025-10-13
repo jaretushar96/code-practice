@@ -89,9 +89,11 @@ public class Main
 
         long totalCost = baseCost;
         int position = 1;
-        for (int w : sortedWeights) {
+        for (int w : sortedWeights)
+         {
             List<String> block = weightGroups.get(w);
-            for (String s : block) {
+            for (String s : block) 
+            {
                 totalCost += (long) w * position;
                 position++;
             }
