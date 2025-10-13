@@ -65,12 +65,14 @@ public class Main
         }
 
         Map<String, Integer> totalWeight = new HashMap<>();
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) 
+        {
             totalWeight.put(labels.get(i), totalWeight.getOrDefault(labels.get(i), 0) + weights.get(i));
         }
 
         Map<Integer, List<String>> weightGroups = new HashMap<>();
-        for (Map.Entry<String, Integer> entry : totalWeight.entrySet()) {
+        for (Map.Entry<String, Integer> entry : totalWeight.entrySet()) 
+        {
             weightGroups.computeIfAbsent(entry.getValue(), x -> new ArrayList<>()).add(entry.getKey());
         }
 
@@ -78,7 +80,8 @@ public class Main
         Collections.sort(sortedWeights, Collections.reverseOrder());
 
         List<List<String>> blocks = new ArrayList<>();
-        for (int w : sortedWeights) {
+        for (int w : sortedWeights) 
+        {
             List<String> block = weightGroups.get(w);
             Collections.sort(block);
             blocks.add(block);
