@@ -6,11 +6,14 @@ import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 
-public class Main {
+public class Main
+ {
 
-    static BigInteger factorial(int n) {
+    static BigInteger factorial(int n) 
+    {
         BigInteger result = BigInteger.ONE;
-        for (int i = 2; i <= n; i++) {
+        for (int i = 2; i <= n; i++) 
+        {
             result = result.multiply(BigInteger.valueOf(i));
         }
         return result;
