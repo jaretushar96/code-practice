@@ -19,13 +19,15 @@ public class Main
         return result;
     }
 
-    static List<String> getPermutation(List<String> items, BigInteger k) {
+    static List<String> getPermutation(List<String> items, BigInteger k) 
+    {
         List<String> result = new ArrayList<>();
         List<String> temp = new ArrayList<>(items);
         int n = temp.size();
         BigInteger[] fact = new BigInteger[n + 1];
         fact[0] = BigInteger.ONE;
-        for (int i = 1; i <= n; i++) {
+        for (int i = 1; i <= n; i++) 
+        {
             fact[i] = fact[i - 1].multiply(BigInteger.valueOf(i));
         }
 
