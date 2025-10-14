@@ -27,6 +27,7 @@ class Manager extends Employee
         super(com, name,sal);
         this.bonus=bonus;
     }
+    
     void calculateBonus()
     {
 
