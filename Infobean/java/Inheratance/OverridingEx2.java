@@ -46,8 +46,6 @@ class Developer extends Employee
         this.bonus=bonus;
     }
     
-  
-
     void calculateBonus()
     {
              super.calculateBonus();
