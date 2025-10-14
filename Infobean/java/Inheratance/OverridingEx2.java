@@ -55,7 +55,8 @@ class Developer extends Employee
 
 class Intern extends Employee
 {
-Intern(String com,String name,int sal) {
+Intern(String com,String name,int sal) 
+{
        super(com, name,sal);
 }
        void calculateBonus()
@@ -63,7 +64,7 @@ Intern(String com,String name,int sal) {
             super.calculateBonus();
               System.out.println("Bonous : No bonous for Intern \n Total Salary :"+(sal));
     }
-    }
+}
 
 public class OverridingEx2 {
     public static void main(String[] args) {
