@@ -27,7 +27,7 @@ class Manager extends Employee
         super(com, name,sal);
         this.bonus=bonus;
     }
-    
+
     void calculateBonus()
     {
 
@@ -40,7 +40,8 @@ class Manager extends Employee
 class Developer extends Employee
 {
      int bonus;
-    Developer(String com,String name,int sal,int bonus) {
+    Developer(String com,String name,int sal,int bonus)
+     {
        super(com, name,sal);
         this.bonus=bonus;
     }
