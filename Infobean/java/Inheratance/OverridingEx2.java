@@ -12,9 +12,6 @@ class Employee
       
 
     }
-
-      
-
     void calculateBonus()
     {
               System.err.println("-------------------");
