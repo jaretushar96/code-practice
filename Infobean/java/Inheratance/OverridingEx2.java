@@ -66,8 +66,10 @@ Intern(String com,String name,int sal)
     }
 }
 
-public class OverridingEx2 {
-    public static void main(String[] args) {
+public class OverridingEx2 
+{
+    public static void main(String[] args)
+     {
         
    Employee[] emp=
    {
