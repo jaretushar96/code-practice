@@ -15,14 +15,14 @@ class Camera
     }
 }
 
-class processor
+class Processor
 {
     
    private String probrand;
    private String core;
    private int frequency;
 
-    processor(String brand, String core,int frequency)
+    Processor(String brand, String core,int frequency)
     {
     this.probrand=brand;
   this.core=core;
@@ -41,7 +41,7 @@ class processor
 class smartPhone
 {
    private Camera cam;
-   private processor pro;
+   private Processor pro;
  private String brand;
    private String model;
    private int price;
@@ -51,7 +51,7 @@ class smartPhone
   this.brand=brand;
   this.model=model;
   this.price=price;
-  this.pro=new processor("Dragon","xy34",99);
+  this.pro=new Processor("Dragon","xy34",99);
   this.cam=new Camera(1080, 64);
     }
 
