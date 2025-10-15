@@ -1,9 +1,9 @@
-class camera
+class Camera
 {
    private int resolation;
      private int megapixal;
 
-    camera(int reso,int mega) {
+    Camera(int reso,int mega) {
         resolation=reso;
         megapixal=mega;
     }
@@ -40,7 +40,7 @@ class processor
 }
 class smartPhone
 {
-   private camera cam;
+   private Camera cam;
    private processor pro;
  private String brand;
    private String model;
@@ -52,7 +52,7 @@ class smartPhone
   this.model=model;
   this.price=price;
   this.pro=new processor("Dragon","xy34",99);
-  this.cam=new camera(1080, 64);
+  this.cam=new Camera(1080, 64);
     }
 
      void show()
