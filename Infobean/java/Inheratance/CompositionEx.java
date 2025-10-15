@@ -3,7 +3,8 @@ class Camera
    private int resolation;
      private int megapixal;
 
-    Camera(int reso,int mega) {
+    Camera(int reso,int mega) 
+    {
         resolation=reso;
         megapixal=mega;
     }
@@ -38,7 +39,7 @@ class Processor
     }
 
 }
-class smartPhone
+class SmartPhone
 {
    private Camera cam;
    private Processor pro;
@@ -46,7 +47,7 @@ class smartPhone
    private String model;
    private int price;
 
-    smartPhone(String brand, String model,int price)
+    SmartPhone(String brand, String model,int price)
     {
   this.brand=brand;
   this.model=model;
@@ -57,7 +58,7 @@ class smartPhone
 
      void show()
     {
-        System.out.println("--------------------------------\nDescription of Smartphone  ");
+        System.out.println("--------------------------------\nDescription of SmartPhone  ");
         System.out.println("Brand :"+brand+"\nModel :"+model+"\nPrice :"+price);
         pro.show();
          cam.show();
@@ -68,11 +69,12 @@ class smartPhone
 
 
 
-public class CompositionEx {
+public class CompositionEx 
+{
     
 
     public static void main(String[] args) {
-        smartPhone sm=new smartPhone("Samsung", "S-23 Pro" , 56000);
+        SmartPhone sm=new SmartPhone("Samsung", "S-23 Pro" , 56000);
         sm.show();
     }
 }
