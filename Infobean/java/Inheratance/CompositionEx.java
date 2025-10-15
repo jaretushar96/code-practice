@@ -73,7 +73,8 @@ public class CompositionEx
 {
     
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         SmartPhone sm=new SmartPhone("Samsung", "S-23 Pro" , 56000);
         sm.show();
     }
