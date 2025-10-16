@@ -19,7 +19,8 @@ class CreaditCard extends Payment
   private  int cardno;
    private int per;
 
-    CreaditCard(String name,double amount1,int cardno,int per) {
+    CreaditCard(String name,double amount1,int cardno,int per)
+     {
         super(name, amount1);
         this.cardno=cardno;
         this.per=per;
@@ -32,10 +33,6 @@ class CreaditCard extends Payment
     System.out.println("Total amount :"+pe);
 
   }
-
-
-    
-
 }
 
 class Upi extends Payment
