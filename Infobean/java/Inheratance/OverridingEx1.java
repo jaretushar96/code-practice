@@ -78,7 +78,8 @@ class net extends Payment
 public class OverridingEx1{
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Payment[] objex={
         new net("Tushar", 1000, 10),
         new Upi("Vikas", 20000, "sbi@vicky1212"),
@@ -86,7 +87,8 @@ public class OverridingEx1{
 
         };
           
-        for (Payment p : objex) {
+        for (Payment p : objex) 
+        {
             p.process();
         }
        
