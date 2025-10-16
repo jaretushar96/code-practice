@@ -1,7 +1,7 @@
 class Payment
 {
-    String name;
-    double amount;
+   private String name;
+   private double amount;
 
     Payment (String name,double amount1)
     {
