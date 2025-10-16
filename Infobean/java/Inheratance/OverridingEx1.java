@@ -1,7 +1,7 @@
 class Payment
 {
-   private String name;
-   private double amount;
+    String name;
+    double amount;
 
     Payment (String name,double amount1)
     {
@@ -16,8 +16,8 @@ class Payment
 class CreaditCard extends Payment
 {
 
-  private  int cardno;
-   private int per;
+    int cardno;
+    int per;
 
     CreaditCard(String name,double amount1,int cardno,int per)
      {
