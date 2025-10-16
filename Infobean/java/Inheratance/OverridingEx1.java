@@ -16,8 +16,8 @@ class Payment
 class CreaditCard extends Payment
 {
 
-    int cardno;
-    int per;
+  private  int cardno;
+   private int per;
 
     CreaditCard(String name,double amount1,int cardno,int per) {
         super(name, amount1);
