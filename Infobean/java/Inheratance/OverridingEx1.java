@@ -38,7 +38,8 @@ class CreaditCard extends Payment
 class Upi extends Payment
 {
         String id;
-     Upi(String name,double amount1,String id) {
+     Upi(String name,double amount1,String id) 
+     {
          super(name, amount1);
          this.id=id;
     }
@@ -56,7 +57,8 @@ class net extends Payment
 {
     int charges;
 
-    net(String name,double amount1, int charges) {
+    net(String name,double amount1, int charges) 
+    {
          super(name, amount1);
          this.charges=charges;
     }
