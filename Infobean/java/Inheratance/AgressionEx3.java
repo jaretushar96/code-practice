@@ -12,7 +12,8 @@ class Professor
 
     }
 
-    void showDetails(){
+    void showDetails()
+    {
 
         System.out.println(" Professors are "+p1+" "+p2);
 
