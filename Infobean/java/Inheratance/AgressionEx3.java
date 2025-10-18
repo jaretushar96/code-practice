@@ -33,7 +33,8 @@ class Department
         this.pro=pro;
     }
 
-     void showDetails(){
+     void showDetails()
+     {
 
 
             System.out.println(" Deapartment :"+depe);
