@@ -69,9 +69,11 @@ class University
 
 
 }
-public class AgressionEx3 {
+public class AgressionEx3 
+{
     
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
 
         Professor pro1= new Professor("Amruta Mam", "Pooja Mam");
         Department d1=new Department("Computer Science ", pro1);
