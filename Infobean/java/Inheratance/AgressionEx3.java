@@ -5,7 +5,8 @@ class Professor
     String p1;
     String p2;
     String p3=" Captain Sir";
-    Professor(String p1,String p2) {
+    Professor(String p1,String p2) 
+    {
        this.p1=p1;
        this.p2=p2;
 
