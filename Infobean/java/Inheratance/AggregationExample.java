@@ -56,13 +56,15 @@ class TCS {
     private FullStackJavaDeveloper fsDev;
     private PythonDeveloper pyDev;
 
-    public TCS(FullStackJavaDeveloper fsDev, PythonDeveloper pyDev) {
+    public TCS(FullStackJavaDeveloper fsDev, PythonDeveloper pyDev) 
+    {
         // Aggregation → TCS only holds references
         this.fsDev = fsDev;
         this.pyDev = pyDev;
     }
 
-    public void showCompanyDetails() {
+    public void showCompanyDetails() 
+    {
         System.out.println("Company: TCS");
         fsDev.showDetails();
         pyDev.showDetails();
@@ -70,7 +72,8 @@ class TCS {
 }
 
 public class AggregationExample {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         BackendJava backend = new BackendJava("Spring Boot", 3);
         FullStackJavaDeveloper fsDev = new FullStackJavaDeveloper("Tushar", 5, backend);
         PythonDeveloper pyDev = new PythonDeveloper("Rahul", 4);
