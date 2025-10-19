@@ -28,22 +28,26 @@ class FullStackJavaDeveloper
         this.backend = backend; // passed from outside (not created inside)
     }
 
-    public void showDetails() {
+    public void showDetails()
+     {
         System.out.println("FullStack Java Developer: " + devName + ", Experience: " + experience + " years");
         backend.showBackendDetails();
     }
 }
 
-class PythonDeveloper {
+class PythonDeveloper 
+{
     private String devName;
     private int experience;
 
-    public PythonDeveloper(String devName, int experience) {
+    public PythonDeveloper(String devName, int experience) 
+    {
         this.devName = devName;
         this.experience = experience;
     }
 
-    public void showDetails() {
+    public void showDetails()
+     {
         System.out.println("Python Developer: " + devName + ", Experience: " + experience + " years");
     }
 }
