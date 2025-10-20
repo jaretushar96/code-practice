@@ -73,8 +73,10 @@ class TCS
     }
 }
 
-public class CompositionExample {
-    public static void main(String[] args) {
+public class CompositionExample
+ {
+    public static void main(String[] args) 
+    {
         TCS tcs = new TCS();
         tcs.showCompanyDetails();
     }
