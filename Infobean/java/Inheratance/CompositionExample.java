@@ -36,31 +36,37 @@ class FullStackJavaDeveloper
     }
 }
 
-class PythonDeveloper {
+class PythonDeveloper
+ {
     private String devName;
     private int experience;
 
-    public PythonDeveloper(String devName, int experience) {
+    public PythonDeveloper(String devName, int experience)
+     {
         this.devName = devName;
         this.experience = experience;
     }
 
-    public void showDetails() {
+    public void showDetails() 
+    {
         System.out.println("Python Developer: " + devName + ", Experience: " + experience + " years");
     }
 }
 
-class TCS {
+class TCS 
+{
     private FullStackJavaDeveloper fsDev;
     private PythonDeveloper pyDev;
 
-    public TCS() {
+    public TCS() 
+    {
         // composition → TCS creates these objects itself
         fsDev = new FullStackJavaDeveloper("Tushar", 5);
         pyDev = new PythonDeveloper("Rahul", 4);
     }
 
-    public void showCompanyDetails() {
+    public void showCompanyDetails() 
+    {
         System.out.println("Company: TCS");
         fsDev.showDetails();
         pyDev.showDetails();
