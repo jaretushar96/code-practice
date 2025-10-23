@@ -1,6 +1,7 @@
 package Staticexample;
 
-public class calculator {
+public class calculator 
+{
     static int a=10,b=12;
    static int add()
    {
