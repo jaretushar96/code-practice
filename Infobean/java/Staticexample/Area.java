@@ -1,5 +1,4 @@
 package Staticexample;
-import java.util.*;
 import java.util.Scanner;
 public class Area {
     
@@ -15,7 +14,7 @@ public class Area {
         return(pi*r);
   }
 
-    public static void main(String[] args) {
+public static void main(String[] args) {
  Scanner sc= new Scanner(System.in);
 
 
