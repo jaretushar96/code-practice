@@ -3,15 +3,15 @@ package Staticexample;
 public class Car 
 {
     
-static String brand="BMW";
-int cost;
-String colour;
+     static String brand="BMW";
+     int cost;
+      String colour;
 
-void info(String colour, int cost)
-{
+  void info(String colour, int cost)
+  {
 
-System.out.println(colour+" "+ cost+" "+ brand);
-}
+      System.out.println(colour+" "+ cost+" "+ brand);
+  }
 
 public static void main(String [] args)
 {
