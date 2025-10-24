@@ -17,7 +17,8 @@ public static void main(String [] args)
    {
 
     Car c= new Car();
-    c.info("Red",2000);
+    c.info("Blue",2000);
+    c.info("Red",5000);
 
    }
 
