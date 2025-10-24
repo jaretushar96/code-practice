@@ -13,12 +13,12 @@ public class Car
       System.out.println(colour+" "+ cost+" "+ brand);
   }
 
-public static void main(String [] args)
-{
+public static void main(String [] args) 
+   {
 
     Car c= new Car();
     c.info("Red",2000);
 
-}
+   }
 
 }
