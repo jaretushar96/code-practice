@@ -1,6 +1,7 @@
 package Staticexample;
 
-public class Car {
+public class Car 
+{
     
 static String brand="BMW";
 int cost;
