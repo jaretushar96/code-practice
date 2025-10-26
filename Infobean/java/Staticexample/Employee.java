@@ -15,8 +15,6 @@ public class Employee
        this.emp_name=emp_name;
 
     System.out.println(" \n\n"+emp_name+" is employee of "+company+" and his employee id is :"+emp_id);
-
-  
     }
 
     
