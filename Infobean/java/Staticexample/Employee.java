@@ -16,9 +16,6 @@ public class Employee
 
     System.out.println(" \n\n"+emp_name+" is employee of "+company+" and his employee id is :"+emp_id);
     }
-
-    
-
 public static void main(String[] args) 
 {
     Scanner sc=new Scanner(System.in);
