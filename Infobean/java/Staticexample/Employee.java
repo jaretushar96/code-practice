@@ -1,9 +1,9 @@
 
 package Staticexample;
-import java.util.*;
 import java.util.Scanner;
 
-public class Employee {
+public class Employee 
+{
 
     int emp_id;
     String emp_name;
