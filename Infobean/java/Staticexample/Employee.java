@@ -19,9 +19,9 @@ public class Employee
 public static void main(String[] args) 
 {
     Scanner sc=new Scanner(System.in);
-      
-    
-for(int i=1;i<=5;i++){
+     
+for(int i=1;i<=5;i++)
+{
      System.out.println(" enter the  id & name of employee " );
   int a= sc.nextInt();
   String str=sc.next();
