@@ -174,8 +174,10 @@ class Company
 }
 
 // ---------- Main Class ----------
-public class TechNova {
-    public static void main(String[] args) {
+public class TechNova 
+{
+    public static void main(String[] args) 
+    {
         System.out.println("===== TechNova Employee Management System =====");
 
         Company company = new Company(); // composition example
@@ -207,7 +209,8 @@ public class TechNova {
         emp.work();
 
         // Downcasting
-        if (emp instanceof Developer) {
+        if (emp instanceof Developer) 
+        {
             Developer dev = (Developer) emp;
             System.out.println("Downcasting successful. Bonus: " + dev.calculateBonus());
         }
