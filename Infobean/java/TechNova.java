@@ -44,18 +44,22 @@ abstract class Employee implements Workable
 }
 
 // ---------- Subclass 1 ----------
-class Developer extends Employee {
-    public Developer(int id, String name, double salary) {
+class Developer extends Employee
+ {
+    public Developer(int id, String name, double salary) 
+    {
         super(id, name, salary);
     }
 
     @Override
-    double calculateBonus() {
+    double calculateBonus() 
+    {
         return salary * 0.10;
     }
 
     @Override
-    public void work() {
+    public void work()
+     {
         System.out.println("Work: Writing and testing Java code.");
     }
 }
