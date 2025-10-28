@@ -5,18 +5,21 @@
 // ===============================
 
 // ---------- Interface ----------
-interface Workable {
+interface Workable 
+{
     void work();
 }
 
 // ---------- Abstract Class ----------
-abstract class Employee implements Workable {
+abstract class Employee implements Workable 
+{
     private int id;
     private String name;
     protected double salary; // protected for subclass access
     static int count = 0;
 
-    public Employee(int id, String name, double salary) {
+    public Employee(int id, String name, double salary) 
+    {
         this.id = id;
         this.name = name;
         this.salary = salary;
@@ -24,9 +27,12 @@ abstract class Employee implements Workable {
     }
 
     // Getters
-    public int getId() { return id; }
-    public String getName() { return name; }
-    public double getSalary() { return salary; }
+    public int getId()
+     { return id; }
+    public String getName() 
+    { return name; }
+    public double getSalary()
+     { return salary; }
 
     // Concrete method
     public void displayInfo() {
