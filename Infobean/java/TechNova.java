@@ -112,23 +112,31 @@ class Department {
     private Employee[] employees;
     private int index = 0;
 
-    public Department(String deptName, int size) {
+    public Department(String deptName, int size) 
+    {
         this.deptName = deptName;
         employees = new Employee[size];
     }
 
-    public void addEmployee(Employee e) {
-        if (index < employees.length) {
+    public void addEmployee(Employee e) 
+    {
+        if (index < employees.length) 
+        {
             employees[index++] = e;
-        } else {
+        } 
+        else 
+        {
             System.out.println("Department is full, cannot add more employees.");
         }
     }
 
-    public void showEmployees() {
+    public void showEmployees()
+     {
         System.out.println("\nDepartment: " + deptName);
-        for (Employee e : employees) {
-            if (e != null) {
+        for (Employee e : employees) 
+        {
+            if (e != null) 
+            {
                 e.displayInfo();
                 System.out.println("Bonus: " + e.calculateBonus());
                 e.work();
@@ -137,25 +145,30 @@ class Department {
         }
     }
 
-    public String getDeptName() {
+    public String getDeptName() 
+    {
         return deptName;
     }
 }
 
 // ---------- Composition ----------
-class Company {
+class Company 
+{
     private final Department dept; // composition: created inside constructor
 
-    public Company() {
+    public Company() 
+    {
         dept = new Department("IT Department", 3);
     }
 
-    public void manageDepartments() {
+    public void manageDepartments() 
+    {
         System.out.println("\nCompany: TechNova Solutions");
         System.out.println("Managing department: " + dept.getDeptName());
     }
 
-    public Department getDepartment() {
+    public Department getDepartment() 
+    {
         return dept;
     }
 }
