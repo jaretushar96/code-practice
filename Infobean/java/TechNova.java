@@ -65,35 +65,43 @@ class Developer extends Employee
 }
 
 // ---------- Subclass 2 ----------
-class Manager extends Employee {
-    public Manager(int id, String name, double salary) {
+class Manager extends Employee
+ {
+    public Manager(int id, String name, double salary) 
+    {
         super(id, name, salary);
     }
 
     @Override
-    double calculateBonus() {
+    double calculateBonus() 
+    {
         return salary * 0.20;
     }
 
     @Override
-    public void work() {
+    public void work() 
+    {
         System.out.println("Work: Managing team and reviewing performance.");
     }
 }
 
 // ---------- Subclass 3 ----------
-class Intern extends Employee {
-    public Intern(int id, String name, double salary) {
+class Intern extends Employee 
+{
+    public Intern(int id, String name, double salary) 
+    {
         super(id, name, salary);
     }
 
     @Override
-    double calculateBonus() {
+    double calculateBonus() 
+    {
         return salary * 0.05;
     }
 
     @Override
-    public void work() {
+    public void work()
+     {
         System.out.println("Work: Assisting developers and learning new skills.");
     }
 }
