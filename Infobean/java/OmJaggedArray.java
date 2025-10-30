@@ -10,7 +10,8 @@ public class OmJaggedArray
         int[][] jaggedArray = new int[3][];  // 3 rows
 
          // Step 2: Accept number of columns for each row from user
-        for (int i = 0; i < jaggedArray.length; i++) {
+        for (int i = 0; i < jaggedArray.length; i++) 
+        {
             System.out.print("Enter number of elements for row " + (i + 1) + ": ");
             int cols = sc.nextInt();
             jaggedArray[i] = new int[cols]; // Create columns dynamically
