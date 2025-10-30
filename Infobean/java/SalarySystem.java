@@ -28,7 +28,8 @@ class manager extends Employee
 {
 	String position;
 
-	public manager(String name, int salary, String position) {
+	public manager(String name, int salary, String position) 
+	{
 		super(name, salary);
 		this.position = position;
 	}
