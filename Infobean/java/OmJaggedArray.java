@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
-public class OmJaggedArray {
-    public static void main(String[] args) {
+public class OmJaggedArray
+ {
+    public static void main(String[] args) 
+    {
         Scanner sc = new Scanner(System.in);
 
         // Step 1: Create jagged array (rows are fixed, columns can vary)
