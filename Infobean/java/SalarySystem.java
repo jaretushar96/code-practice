@@ -51,7 +51,8 @@ class Developer extends Employee
 {
 	String position;
 
-	public Developer(String name, int salary, String position) {
+	public Developer(String name, int salary, String position) 
+	{
 		super(name, salary);
 		this.position = position;
 	}
