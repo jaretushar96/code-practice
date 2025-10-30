@@ -70,7 +70,8 @@ class Developer extends Employee
 	
 }
 
-public class SalarySystem {
+public class SalarySystem 
+{
 	
 
 	public static void main(String []args)
