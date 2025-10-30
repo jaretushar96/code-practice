@@ -18,7 +18,8 @@ public class OmJaggedArray
         }
 
         // // Step 3: Accept elements for this row
-        for (int i = 0; i < jaggedArray.length; i++) {
+        for (int i = 0; i < jaggedArray.length; i++)
+         {
             
             System.out.println("Enter " + jaggedArray[i].length + " elements for row " + (i + 1) + ":");
             for (int j = 0; j < jaggedArray[i].length; j++) {
@@ -28,7 +29,8 @@ public class OmJaggedArray
 
         // Step 4: Display the jagged array
         System.out.println("\nJagged Array Elements:");
-        for (int i = 0; i < jaggedArray.length; i++) {
+        for (int i = 0; i < jaggedArray.length; i++) 
+        {
             for (int j = 0; j < jaggedArray[i].length; j++) {
                 System.out.print(jaggedArray[i][j] + " ");
             }
