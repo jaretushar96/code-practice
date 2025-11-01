@@ -35,10 +35,9 @@ class Display extends Thread
 
 public class Bank 
 {
-  public static void main(String[] args) 
+   public static void main(String[] args) 
   {
      Display d1=new Display();
      d1.start();
-
   }  
 }
