@@ -29,9 +29,7 @@ class Display extends Thread
          bal=bal-amo;
         System.out.println(amo+"IS Withrawl Suscessfully ");
         System.out.println("Avilable blance is "+bal);
-    }
-
-     
+    }    
 
 }
 
