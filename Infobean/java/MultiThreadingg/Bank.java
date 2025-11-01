@@ -9,8 +9,6 @@ class Display extends Thread
         withrawl();
        
       }
-
-
     void diposit()
     {
          Scanner sc =new Scanner(System.in);
