@@ -1,9 +1,11 @@
 import java.util.Scanner;
 
 // Custom exception for wrong answers
-class WrongAnswerException extends Exception {
+class WrongAnswerException extends Exception 
+{
     String correctAnswer;
-    WrongAnswerException(String correctAnswer) {
+    WrongAnswerException(String correctAnswer) 
+    {
         this.correctAnswer = correctAnswer;
     }
     public String getCorrectAnswer() {
