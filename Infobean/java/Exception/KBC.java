@@ -125,7 +125,8 @@ public class KBC
 
     // ---------- Question sets for levels (no Collections used) ----------
 
-    static Question[] createLevel1() {
+    static Question[] createLevel1()
+     {
         Question[] q = new Question[3];
         q[0] = new Question("Which planet is known as the Red Planet?",
                 new String[]{"Earth", "Mars", "Jupiter", "Venus"}, 2);
@@ -136,7 +137,8 @@ public class KBC
         return q;
     }
 
-    static Question[] createLevel2() {
+    static Question[] createLevel2()
+     {
         Question[] q = new Question[4];
         q[0] = new Question("Which gas do plants absorb from the atmosphere?",
                 new String[]{"Oxygen", "Carbon Dioxide", "Hydrogen", "Nitrogen"}, 2);
@@ -149,7 +151,8 @@ public class KBC
         return q;
     }
 
-    static Question[] createLevel3() {
+    static Question[] createLevel3() 
+    {
         Question[] q = new Question[5];
         q[0] = new Question("Who wrote 'Ramayana'?",
                 new String[]{"Tulsidas", "Valmiki", "Kalidas", "Ved Vyasa"}, 2);
@@ -164,7 +167,8 @@ public class KBC
         return q;
     }
 
-    static Question[] createLevel4() {
+    static Question[] createLevel4() 
+    {
         Question[] q = new Question[6];
         q[0] = new Question("Who discovered gravity?",
                 new String[]{"Newton", "Galileo", "Einstein", "Tesla"}, 1);
