@@ -49,16 +49,19 @@ class Question
         return ans == correctOption;
     }
 
-    String getCorrectAnswer() {
+    String getCorrectAnswer() 
+    {
         return options[correctOption - 1];
     }
 }
 
 // Main Game class
-public class KBC{
+public class KBC
+{
     static Scanner sc = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         System.out.println("=== Welcome to KBC Game (No Collections Used) ===");
         System.out.println("Enter option number (1-4) for each question.\n");
 
