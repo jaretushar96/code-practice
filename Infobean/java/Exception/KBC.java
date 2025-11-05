@@ -8,20 +8,23 @@ class WrongAnswerException extends Exception
     {
         this.correctAnswer = correctAnswer;
     }
-    public String getCorrectAnswer() {
+    public String getCorrectAnswer() 
+    {
         return correctAnswer;
     }
 }
 
 // Custom exception for level failure
 class LevelFailedException extends Exception {
-    LevelFailedException(String msg) {
+    LevelFailedException(String msg) 
+    {
         super(msg);
     }
 }
 
 // Class to hold question details
-class Question {
+class Question
+ {
     String question;
     String[] options;
     int correctOption;  // 1-based index
