@@ -16,7 +16,8 @@ public class ArrayAccess
         int[] arr = {10, 20, 30, 40, 50};
        int err=0;
    
-        while (err<5) {
+        while (err<5) 
+        {
             try { 
                 System.out.print("Enter array index (0–4): ");
                 int index = sc.nextInt();
