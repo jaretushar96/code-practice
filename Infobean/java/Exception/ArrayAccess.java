@@ -10,7 +10,8 @@ class ReachAtMax extends Exception
 
 public class ArrayAccess 
 {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Scanner sc = new Scanner(System.in);
 
         int[] arr = {10, 20, 30, 40, 50};
@@ -39,7 +40,8 @@ public class ArrayAccess
                 System.out.println("Invalid index Try again.");
             }
         }
-            try{
+            try
+            {
              if (err >= 5) 
              {
             System.out.println("Error!");
