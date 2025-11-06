@@ -8,7 +8,8 @@ class ReachAtMax extends Exception
     }
 }
 
-public class ArrayAccess {
+public class ArrayAccess 
+{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
