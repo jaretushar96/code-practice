@@ -38,11 +38,13 @@ public class ArrayAccess {
             }
         }
             try{
-             if (err >= 5) {
+             if (err >= 5) 
+             {
             System.out.println("Error!");
             throw new ReachAtMax(" REach at max");
              }
-        }  catch(ReachAtMax e)
+        }  
+        catch(ReachAtMax e)
         {
             System.out.println(e.getMessage());
         }    
