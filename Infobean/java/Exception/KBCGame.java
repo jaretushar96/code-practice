@@ -56,7 +56,8 @@ class Game1
 public class KBCGame 
 {
     
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
       Scanner sc=new Scanner(System.in);
 
       Game1[] level1 = new Game1[3];
@@ -87,7 +88,8 @@ public class KBCGame
         level4[3] = new Game1("Which gas do we breathe in?", "Nitrogen", "Oxygen", "Hydrogen", "Carbon dioxide", 2);
         
         
-        if (playLevel(level1, 1, 1)) {
+        if (playLevel(level1, 1, 1)) 
+        {
             if (playLevel(level2, 2, 2)) {
                 if (playLevel(level3, 3, 3)) {
                     if (playLevel(level4, 4, 4)) {
