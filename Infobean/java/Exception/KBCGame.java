@@ -32,7 +32,8 @@ class Game1
             System.out.println("Correct Answer!");
             return 1;
         }
-         else {
+         else
+          {
             System.out.println(" Wrong Answer!");
             System.out.println("Correct answer was option " + correctAnswer + ".");
             return 0; 
@@ -52,7 +53,8 @@ class Game1
      
 
 }
-public class KBCGame {
+public class KBCGame 
+{
     
     public static void main(String[] args) {
       Scanner sc=new Scanner(System.in);
