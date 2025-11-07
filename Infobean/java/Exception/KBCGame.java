@@ -90,9 +90,12 @@ public class KBCGame
         
         if (playLevel(level1, 1, 1)) 
         {
-            if (playLevel(level2, 2, 2)) {
-                if (playLevel(level3, 3, 3)) {
-                    if (playLevel(level4, 4, 4)) {
+            if (playLevel(level2, 2, 2)) 
+            {
+                if (playLevel(level3, 3, 3)) 
+                {
+                    if (playLevel(level4, 4, 4)) 
+                    {
                         System.out.println("\n🏆 CONGRATULATIONS! You cleared all levels successfully!");
                     }
                 }
