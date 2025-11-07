@@ -105,31 +105,37 @@ public class KBCGame
     }    
       
 
-public static boolean playLevel(Game1[] level, int levelNumber, int requiredCorrect) {
+public static boolean playLevel(Game1[] level, int levelNumber, int requiredCorrect) 
+{
         System.out.println("\n=========================");
         System.out.println(" LEVEL " + levelNumber + " START ");
         System.out.println("=========================");
 
         int correctCount = 0;
-        try{
-        for (Game1 q : level) {
+        try
+        {
+        for (Game1 q : level) 
+        {
             correctCount += q.qusAnswer();
         }
 
         System.out.println("\nYou got " + correctCount + " correct answers out of " + level.length + ".");
-        if (correctCount >= requiredCorrect) {
+        if (correctCount >= requiredCorrect) 
+        {
             System.out.println(" You cleared Level " + levelNumber + "!");
             return true;
          }
         
 
-        else{
+        else
+        {
             System.out.println(" You failed Level " + levelNumber + ". Required at least " + requiredCorrect + " correct answers.");
             return false;
         }
         
         } 
-        catch (Exception e) {
+        catch (Exception e) 
+        {
             System.out.println("Error details: " + e.getMessage());
              return false;
         }
