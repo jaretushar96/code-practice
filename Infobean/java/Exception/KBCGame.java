@@ -27,10 +27,12 @@ class Game1
              System.out.println("Enter Your Answer ");
         int userAnswer=sc.nextInt();
               
-          if (userAnswer == correctAnswer) {
+          if (userAnswer == correctAnswer)
+           {
             System.out.println("Correct Answer!");
             return 1;
-        } else {
+        }
+         else {
             System.out.println(" Wrong Answer!");
             System.out.println("Correct answer was option " + correctAnswer + ".");
             return 0; 
