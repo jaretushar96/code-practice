@@ -29,7 +29,8 @@ ArrayList<String> book = new ArrayList<String>();
            for (int i = 0; i < book.size(); i++) 
            {
 
-        if (book.get(i).equalsIgnoreCase(b3)) {
+        if (book.get(i).equalsIgnoreCase(b3)) 
+        {
             book.remove(i);
             System.out.println("Book '" + b3 + "' issued successfully!");
         }
