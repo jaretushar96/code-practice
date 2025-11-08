@@ -27,6 +27,7 @@ ArrayList<String> book = new ArrayList<String>();
             System.out.println("Enter Book name For Issued book");
             String b3=sc.nextLine();
            for (int i = 0; i < book.size(); i++) {
+            
         if (book.get(i).equalsIgnoreCase(b3)) {
             book.remove(i);
             System.out.println("Book '" + b3 + "' issued successfully!");
