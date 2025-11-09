@@ -71,7 +71,8 @@ class vivo extends phone
 	
 }
 
-public class AbstractEx1 {
+public class AbstractEx1 
+{
 
 	public static void main(String [] args)
 	{
