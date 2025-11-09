@@ -59,11 +59,13 @@ class vivo extends phone
 	}
 
 	
-	void torch() {
+	void torch() 
+	{
 		System.out.println(" torch Function is Avilable ");	
 	}
 	
-	void gaming() {
+	void gaming() 
+	{
 		System.out.println(" Gaming Function is Avilable ");	
 	}
 	
