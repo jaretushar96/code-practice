@@ -15,23 +15,27 @@ class oppo extends phone
 {
 
 	
-	void calling() {
+	void calling() 
+	{
 		System.out.println("\n ------------------------------------------\n IN OPPO PHONE\n");	
 	System.out.println(" Calling Function is Avilable ");	
 	}
 
 	
-	void camera() {
+	void camera() 
+	{
 		
 		System.out.println(" Camera Function is Avilable ");	
 	}
 
 	
-	void torch() {
+	void torch() 
+	{
 		System.out.println(" torch Function is Avilable ");	
 	}
 	
-	void gps() {
+	void gps() 
+	{
 		System.out.println(" GPS Function is Avilable ");	
 	}
 	
@@ -41,13 +45,15 @@ class vivo extends phone
 {
 
 	
-	void calling() {
+	void calling() 
+	{
 		System.out.println(" \n ------------------------------------------\n IN VIVO PHONE \n");	
 	System.out.println(" Calling Function is Avilable ");	
 	}
 
 	
-	void camera() {
+	void camera()
+	 {
 		
 		System.out.println(" Camera Function is Avilable ");	
 	}
