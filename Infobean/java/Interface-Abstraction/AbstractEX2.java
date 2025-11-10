@@ -10,7 +10,8 @@ class FountainPen extends pen
 {
 
 	@Override
-	void write() {
+	void write()
+	 {
 		System.out.println(" Write method");
 		
 	}
