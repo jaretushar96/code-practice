@@ -29,7 +29,8 @@ class FountainPen extends pen
 	}
 }
 
-public class AbstractEX2 {
+public class AbstractEX2 
+{
 	public static void main(String [] args)
 	{
 		FountainPen f=new FountainPen();
