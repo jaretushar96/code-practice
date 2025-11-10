@@ -23,7 +23,8 @@ class FountainPen extends pen
 	}
 	
 	
-	void ink() {
+	void ink()
+	 {
 		System.out.println(" Red ink method");
 	}
 }
