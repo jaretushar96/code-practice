@@ -23,7 +23,8 @@ class human extends monkey implements animals
 		
 	}
 
-	public void sleep() {
+	public void sleep() 
+	{
 		System.out.println(" Sleep method Form interface");
 		
 	}
