@@ -17,7 +17,8 @@ class human extends monkey implements animals
 {
 
 
-	public void eat() {
+	public void eat() 
+	{
 		System.out.println(" Eat method Form interface");
 		
 	}
