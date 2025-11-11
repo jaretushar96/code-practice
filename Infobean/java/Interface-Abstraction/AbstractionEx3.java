@@ -36,14 +36,16 @@ class human extends monkey implements animals
 	}
 
 	
-	void bite() {
+	void bite() 
+	{
 		System.out.println(" Bite method Form  cLASS MONKEY	");
 		
 	}
 	
 }
 
-public class AbstractionEx3 {
+public class AbstractionEx3 
+{
 	public static void main(String [] args)
 	{
 		human h=new human();
