@@ -30,7 +30,8 @@ class human extends monkey implements animals
 	}
 
 	
-	void jump() {
+	void jump() 
+	{
 		System.out.println(" Jump method Form Class Monkey");
 	}
 
