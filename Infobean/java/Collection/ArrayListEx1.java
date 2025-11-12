@@ -14,6 +14,8 @@ public class ArrayListEx1
                 abc.add(22);
                 abc.addFirst(999);
 
+                abc.set(3, 232);
+
                 System.out.println(abc);
                 Collections.sort(abc);
                 System.out.println(abc);
