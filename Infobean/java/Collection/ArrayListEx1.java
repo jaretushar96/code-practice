@@ -2,7 +2,8 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class ArrayListEx1 {
+public class ArrayListEx1
+ {
     public static void main(String[] args) {
         ArrayList<Integer> abc =new ArrayList<Integer>();
         abc.add(10);
