@@ -17,6 +17,7 @@ public class ArrayListEx1
                 abc.set(3, 232);
 
                 abc.remove(2);
+                abc.indexOf(232);
 
                 System.out.println(abc);
                 Collections.sort(abc);
