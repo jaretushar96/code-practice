@@ -79,11 +79,14 @@ public class LibrarySystemEx1
                         }
                     }
 
-                    if (!exists) {
+                    if (!exists)
+                     {
                         books.add(addBook);
                         transactions.addFirst("Book added: " + addBook + " (by admin)");
                         System.out.println("✅ Book added successfully!\n");
-                    } else {
+                    } 
+                    else 
+                    {
                         System.out.println("⚠️ Book already exists in the library.\n");
                     }
                     break;
@@ -91,14 +94,17 @@ public class LibrarySystemEx1
                 case 2:
                     System.out.print("Enter book title to remove: ");
                     String removeBook = sc.nextLine().trim();
-                    if (removeBook.isEmpty()) {
+                    if (removeBook.isEmpty()) 
+                    {
                         System.out.println("⚠️ Book title cannot be empty.\n");
                         break;
                     }
 
                     String foundBook = null;
-                    for (String b : books) {
-                        if (b.equalsIgnoreCase(removeBook)) {
+                    for (String b : books)
+                     {
+                        if (b.equalsIgnoreCase(removeBook)) 
+                        {
                             foundBook = b;
                             break;
                         }
