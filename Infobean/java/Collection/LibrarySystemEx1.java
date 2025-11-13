@@ -58,18 +58,22 @@ public class LibrarySystemEx1
                 continue;
             }
 
-            switch (choice) {
+            switch (choice) 
+            {
                 case 1:
                     System.out.print("Enter book title to add: ");
                     String addBook = sc.nextLine().trim();
-                    if (addBook.isEmpty()) {
+                    if (addBook.isEmpty()) 
+                    {
                         System.out.println("⚠️ Book title cannot be empty.\n");
                         break;
                     }
 
                     boolean exists = false;
-                    for (String b : books) {
-                        if (b.equalsIgnoreCase(addBook)) {
+                    for (String b : books) 
+                    {
+                        if (b.equalsIgnoreCase(addBook))
+                         {
                             exists = true;
                             break;
                         }
