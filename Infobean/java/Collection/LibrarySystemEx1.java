@@ -177,7 +177,8 @@ public class LibrarySystemEx1
                             break;
                         }
                     }
-                    if (!memberExists) {
+                    if (!memberExists) 
+                    {
                         System.out.println("⚠️ Member not registered. Please register first.\n");
                         break;
                     }
@@ -185,19 +186,24 @@ public class LibrarySystemEx1
                     System.out.print("Enter book title to issue: ");
                     String issueBook = sc.nextLine().trim();
                     String bookToIssue = null;
-                    for (String b : books) {
-                        if (b.equalsIgnoreCase(issueBook)) {
+                    for (String b : books)
+                     {
+                        if (b.equalsIgnoreCase(issueBook)) 
+                        {
                             bookToIssue = b;
                             break;
                         }
                     }
 
-                    if (bookToIssue != null) {
+                    if (bookToIssue != null) 
+                    {
                         books.remove(bookToIssue);
                         issuedBooks.put(bookToIssue, memberIssue);
                         transactions.addFirst("Book issued: " + issueBook + " → Member: " + memberIssue);
                         System.out.println("📗 Book issued successfully to " + memberIssue + "!\n");
-                    } else {
+                    } 
+                    else 
+                    {
                         System.out.println("⚠️ Book not available or already issued.\n");
                     }
                     break;
