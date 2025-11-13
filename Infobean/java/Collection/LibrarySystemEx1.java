@@ -142,8 +142,10 @@ public class LibrarySystemEx1
                     }
 
                     String issuedTo = null;
-                    for (Map.Entry<String, String> entry : issuedBooks.entrySet()) {
-                        if (entry.getKey().equalsIgnoreCase(searchBook)) {
+                    for (Map.Entry<String, String> entry : issuedBooks.entrySet())
+                     {
+                        if (entry.getKey().equalsIgnoreCase(searchBook))
+                         {
                             issuedTo = entry.getValue();
                             break;
                         }
@@ -160,14 +162,17 @@ public class LibrarySystemEx1
                 case 4:
                     System.out.print("Enter member name issuing the book: ");
                     String memberIssue = sc.nextLine().trim();
-                    if (memberIssue.isEmpty()) {
+                    if (memberIssue.isEmpty()) 
+                    {
                         System.out.println("⚠️ Member name cannot be empty.\n");
                         break;
                     }
 
                     boolean memberExists = false;
-                    for (String m : members) {
-                        if (m.equalsIgnoreCase(memberIssue)) {
+                    for (String m : members) 
+                    {
+                        if (m.equalsIgnoreCase(memberIssue)) 
+                        {
                             memberExists = true;
                             break;
                         }
