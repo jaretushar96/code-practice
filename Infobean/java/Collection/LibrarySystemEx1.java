@@ -110,11 +110,14 @@ public class LibrarySystemEx1
                         }
                     }
 
-                    if (foundBook != null) {
+                    if (foundBook != null)
+                     {
                         books.remove(foundBook);
                         transactions.addFirst("Book removed: " + removeBook + " (by admin)");
                         System.out.println("❌ Book removed successfully!\n");
-                    } else {
+                    } 
+                    else 
+                    {
                         System.out.println("⚠️ Book not found in library.\n");
                     }
                     break;
@@ -122,14 +125,17 @@ public class LibrarySystemEx1
                 case 3:
                     System.out.print("Enter book title to search: ");
                     String searchBook = sc.nextLine().trim();
-                    if (searchBook.isEmpty()) {
+                    if (searchBook.isEmpty()) 
+                    {
                         System.out.println("⚠️ Book title cannot be empty.\n");
                         break;
                     }
 
                     boolean foundInAvailable = false;
-                    for (String b : books) {
-                        if (b.equalsIgnoreCase(searchBook)) {
+                    for (String b : books) 
+                    {
+                        if (b.equalsIgnoreCase(searchBook)) 
+                        {
                             foundInAvailable = true;
                             break;
                         }
