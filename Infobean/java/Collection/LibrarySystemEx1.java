@@ -34,7 +34,8 @@ public class LibrarySystemEx1
         System.out.println("\n✅ Login successful! Welcome, " + user + "\n");
 
         int choice;
-        while (true) {
+        while (true) 
+        {
             System.out.println("===== LIBRARY MANAGEMENT SYSTEM =====");
             System.out.println("1. Add Book");
             System.out.println("2. Remove Book");
@@ -47,9 +48,12 @@ public class LibrarySystemEx1
             System.out.println("9. Exit");
             System.out.print("Enter choice: ");
 
-            try {
+            try
+             {
                 choice = Integer.parseInt(sc.nextLine());
-            } catch (NumberFormatException e) {
+            } 
+            catch (NumberFormatException e)
+             {
                 System.out.println("⚠️ Invalid input. Please enter a number.\n");
                 continue;
             }
