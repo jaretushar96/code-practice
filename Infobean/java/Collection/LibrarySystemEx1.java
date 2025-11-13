@@ -6,7 +6,8 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Scanner;
 
-public class LibrarySystemEx1 {
+public class LibrarySystemEx1 
+{
     static ArrayList<String> books = new ArrayList<>();
     static HashMap<String, String> issuedBooks = new HashMap<>();
     static Deque<String> transactions = new ArrayDeque<>();
@@ -25,7 +26,8 @@ public class LibrarySystemEx1 {
         System.out.print("Enter password: ");
         String pass = sc.nextLine();
 
-        if (!user.equals(validUsername) || !pass.equals(validPassword)) {
+        if (!user.equals(validUsername) || !pass.equals(validPassword)) 
+        {
             System.out.println("❌ Invalid credentials. Access denied.");
             return;
         }
