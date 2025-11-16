@@ -12,7 +12,9 @@ public class DequeEx2
 
         Deque<String> dq = new ArrayDeque<>();
         for (String word : sentence.split(" "))
+        {
          dq.push(word);
+        }
 
         System.out.print("Reversed Sentence: ");
         while (!dq.isEmpty()) System.out.print(dq.pop() + " ");
