@@ -9,6 +9,7 @@ public class HashSetEx1
         countries.add("USA");
         countries.add("India");
         countries.add("Japan");
+              countries.add("Japan");
 
         System.out.println("Unique Countries: " + countries);
     }
