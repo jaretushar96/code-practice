@@ -13,7 +13,8 @@ public class HashSetEx2
         set2.add(3); 
            set2.add(4); 
             set2.add(5); 
-             set2.add(6);         
+             set2.add(6); 
+              set2.add(7);        
 
         HashSet<Integer> union = new HashSet<>(set1);
         union.addAll(set2);
