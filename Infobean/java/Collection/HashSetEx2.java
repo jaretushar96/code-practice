@@ -1,6 +1,7 @@
 import java.util.HashSet;
 
-public class HashSetEx2 {
+public class HashSetEx2 
+{
     public static void main(String[] args) {
          HashSet<Integer> set1 = new HashSet<>();
         HashSet<Integer> set2 = new HashSet<>();
