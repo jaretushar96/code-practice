@@ -85,7 +85,8 @@ public class Main
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Scanner sc = new Scanner(System.in);
 
         N = sc.nextInt();
@@ -93,7 +94,8 @@ public class Main
 
         grid = new char[N + 1][M + 1];
         for (int i = 1; i <= N; i++) {
-            for (int j = 1; j <= M; j++) {
+            for (int j = 1; j <= M; j++) 
+                {
                 grid[i][j] = sc.next().charAt(0);
             }
         }
