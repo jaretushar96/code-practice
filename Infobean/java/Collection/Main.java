@@ -60,12 +60,14 @@ public class Main
 
     static void dfs(int r, int c, int idx, List<int[]> path)
      {
-        if (idx == word.length()) {
+        if (idx == word.length()) 
+            {
             checkClues(path);
             return;
         }
 
-        for (int k = 0; k < 4; k++) {
+        for (int k = 0; k < 4; k++) 
+            {
             int nr = r + dr[k];
             int nc = c + dc[k];
 
