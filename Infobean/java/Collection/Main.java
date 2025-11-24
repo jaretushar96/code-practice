@@ -25,7 +25,8 @@ public class Main
             y2 = d;
         }
 
-        boolean violates(int r, int c) {
+        boolean violates(int r, int c) 
+        {
             return (r >= x1 && r <= x2 && c >= y1 && c <= y2);
         }
     }
@@ -35,7 +36,8 @@ public class Main
     static int[] dr = {1, -1, 0, 0};
     static int[] dc = {0, 0, 1, -1};
 
-    static void checkClues(List<int[]> path) {
+    static void checkClues(List<int[]> path) 
+    {
         int faults = 0;
 
         for (Clue cl : clues) {
