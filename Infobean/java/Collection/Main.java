@@ -48,7 +48,8 @@ public class Main
             int r = pos[0];
             int c = pos[1];
 
-            if (cl.violates(r, c)) {
+            if (cl.violates(r, c))
+                 {
                 faults++;
                 if (faults >= minFault) return;
             }
@@ -57,7 +58,8 @@ public class Main
         minFault = Math.min(minFault, faults);
     }
 
-    static void dfs(int r, int c, int idx, List<int[]> path) {
+    static void dfs(int r, int c, int idx, List<int[]> path)
+     {
         if (idx == word.length()) {
             checkClues(path);
             return;
