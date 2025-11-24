@@ -2,7 +2,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Main {
+public class Main 
+{
 
     static int N, M;
     static char[][] grid;
@@ -11,7 +12,8 @@ public class Main {
     static boolean[][] visited;
     static int minFault = Integer.MAX_VALUE;
 
-    static class Clue {
+    static class Clue 
+    {
         int time;
         int x1, y1, x2, y2;
 
