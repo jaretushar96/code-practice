@@ -7,7 +7,8 @@ import javax.sound.sampled.Clip;
 public class LyricsSync 
 {
 
-    public static void playSound(String filePath) {
+    public static void playSound(String filePath)
+     {
         try {
             File file = new File(filePath);
             if (!file.exists()) 
@@ -24,7 +25,8 @@ public class LyricsSync
             // Wait until the audio completes
             clip.drain(); // ensures full play
             clip.close();
-        } catch (Exception e) {
+        } 
+        catch (Exception e) {
             System.out.println("Error while playing audio: " + e.getMessage());
             e.printStackTrace();
         }
