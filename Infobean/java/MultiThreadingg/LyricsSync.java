@@ -33,7 +33,8 @@ public class LyricsSync
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         // Lyrics of the song
         String lyrics = "Hum tere bin ab reh nahi sakte \n" +
                 "Tere bina kya wajood meraaa . ...?\n " +
@@ -54,11 +55,12 @@ public class LyricsSync
 
         // Print lyrics word by word with delay
         try {
-            for (String word : words) {
+            for (String word : words) 
+                {
                 System.out.print(word + " ");
                 System.out.flush();
                 Thread.sleep(800); // adjust timing as per song
-            }
+                }
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
