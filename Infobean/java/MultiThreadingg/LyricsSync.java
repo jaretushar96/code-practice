@@ -26,7 +26,8 @@ public class LyricsSync
             clip.drain(); // ensures full play
             clip.close();
         } 
-        catch (Exception e) {
+        catch (Exception e) 
+        {
             System.out.println("Error while playing audio: " + e.getMessage());
             e.printStackTrace();
         }
