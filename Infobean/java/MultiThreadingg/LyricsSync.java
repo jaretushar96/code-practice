@@ -4,12 +4,14 @@ import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 
-public class LyricsSync {
+public class LyricsSync 
+{
 
     public static void playSound(String filePath) {
         try {
             File file = new File(filePath);
-            if (!file.exists()) {
+            if (!file.exists()) 
+                {
                 System.out.println("Audio file not found!");
                 return;
             }
