@@ -61,7 +61,8 @@ public class LyricsSync
                 System.out.flush();
                 Thread.sleep(800); // adjust timing as per song
                 }
-        } catch (InterruptedException e) {
+        } 
+        catch (InterruptedException e) {
             e.printStackTrace();
         }
 
