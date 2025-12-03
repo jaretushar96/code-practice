@@ -76,18 +76,21 @@ class Notebook
     {
         try (BufferedWriter bw = new BufferedWriter(new FileWriter(filePath))) {
 
-            for (Note n : notes) {
+            for (Note n : notes) 
+                {
                 bw.write(n.toString());
                 bw.newLine();
             }
 
-        } catch (Exception e) {
+        } catch (Exception e) 
+        {
             System.out.println("Error saving notes: " + e.getMessage());
         }
     }
 
     // ---------------------------- ADD NOTE ----------------------------
-    void addNote() {
+    void addNote() 
+    {
         System.out.print("Enter Note ID: ");
         int id = sc.nextInt();
         sc.nextLine();
