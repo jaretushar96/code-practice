@@ -65,13 +65,15 @@ class Notebook
                 }
             }
 
-        } catch (Exception e) {
+        } catch (Exception e) 
+        {
             System.out.println("Error loading notes: " + e.getMessage());
         }
     }
 
     // ---------------------------- SAVE NOTES TO FILE ----------------------------
-    void saveNotes() {
+    void saveNotes() 
+    {
         try (BufferedWriter bw = new BufferedWriter(new FileWriter(filePath))) {
 
             for (Note n : notes) {
