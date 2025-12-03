@@ -24,24 +24,28 @@ class Note
     }
 
     @Override
-    public String toString() {
+    public String toString() 
+    {
         return id + "|" + title + "|" + content + "|" + createdTime;
     }
 }
 
-class Notebook {
+class Notebook 
+{
     List<Note> notes = new ArrayList<>();
     Scanner sc = new Scanner(System.in);
 
     String filePath = "notes.txt";  // file for saving all notes
 
     // ---------------------------- LOAD EXISTING NOTES ----------------------------
-    public Notebook() {
+    public Notebook() 
+    {
         loadNotes();
     }
 
     // Load notes from file when program starts
-    void loadNotes() {
+    void loadNotes()
+     {
         File file = new File(filePath);
 
         if (!file.exists()) return; // no file → nothing to load
