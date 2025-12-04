@@ -55,7 +55,9 @@ public class StreamEx1
 
             if (cho.equalsIgnoreCase("bill")) {
                 break;
-            } else {
+            } 
+            else 
+                {
                 inputProducts.add(cho);
             }
         }
