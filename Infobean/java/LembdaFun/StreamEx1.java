@@ -22,8 +22,10 @@ class Shopping
 }
 
 
-public class StreamEx1 {
-    public static void main(String[] args) {
+public class StreamEx1 
+{
+    public static void main(String[] args) 
+    {
         Scanner sc=new Scanner(System.in);
 
         List<Shopping> pro=List.of(
