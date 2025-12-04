@@ -48,7 +48,8 @@ public class StreamEx1
 
   List<String> inputProducts = new ArrayList<>();
 
-        while (true) {
+        while (true) 
+            {
             System.out.println("\nEnter product name OR type 'bill' to calculate:");
             String cho = sc.nextLine();
 
