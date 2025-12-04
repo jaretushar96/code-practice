@@ -9,12 +9,14 @@ class Shopping
     double price;       
     String product;
 
-    Shopping(double price, String product) {
+    Shopping(double price, String product) 
+    {
         this.price = price;
         this.product = product;
     }
 
-    public String toString() {
+    public String toString() 
+    {
         return "Price: " + price + " Product: " + product;
     }
 }
