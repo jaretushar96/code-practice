@@ -1,7 +1,10 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
 import java.util.stream.Collectors;
-import java.util.*;
 
-class Shopping {
+class Shopping 
+{
 
     double price;       
     String product;
