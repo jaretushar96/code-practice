@@ -35,7 +35,8 @@ if (v == null) {
     return;
 }
 
-if ("OUT".equals(v.getStatus())) {
+if ("OUT".equals(v.getStatus())) 
+    {
     System.out.println("\tThis visitor has already checked out.");
     return;
 }
