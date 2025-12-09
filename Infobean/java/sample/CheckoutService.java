@@ -2,7 +2,8 @@
 import java.time.*;
 import java.util.*;
 
-public class CheckoutService {
+public class CheckoutService 
+{
 
     private final List<Visitor> list;
     private final Manager manager;
@@ -12,7 +13,8 @@ public class CheckoutService {
         this.manager = manager;
     }
 
-    public void checkOut(Scanner sc) {
+    public void checkOut(Scanner sc)
+     {
         System.out.print("\tEnter Visitor ID for checkout: ");
       
         int vid = sc.nextInt(); 
