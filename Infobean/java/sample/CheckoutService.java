@@ -23,8 +23,10 @@ public class CheckoutService
       
         Visitor v = null;
 
-for (Visitor  found: list) {
-    if (found.getId() == vid) {
+for (Visitor  found: list) 
+    {
+    if (found.getId() == vid) 
+        {
         v = found;
         break;
     }
