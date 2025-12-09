@@ -30,7 +30,8 @@ for (Visitor  found: list) {
     }
 }
 
-if (v == null) {
+if (v == null) 
+    {
     System.out.println("\tNo visitor found with this ID.");
     return;
 }
