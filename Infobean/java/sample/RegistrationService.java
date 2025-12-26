@@ -2,7 +2,8 @@
 import java.time.LocalDateTime;
 import java.util.*;
 
-public class RegistrationService {
+public class RegistrationService 
+{
 
     private final List<Visitor> list;
     private final Manager manager;
