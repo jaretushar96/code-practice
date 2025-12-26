@@ -8,7 +8,8 @@ public class RegistrationService
     private final List<Visitor> list;
     private final Manager manager;
 
-    public RegistrationService(List<Visitor> list, Manager manager) {
+    public RegistrationService(List<Visitor> list, Manager manager) 
+    {
         this.list = list;
         this.manager = manager;
     }
