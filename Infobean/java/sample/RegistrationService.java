@@ -15,7 +15,8 @@ public class RegistrationService
     }
 
     
-    private int currentInside() {
+    private int currentInside() 
+    {
         int c = 0;
         for (Visitor v : list) 
             {
