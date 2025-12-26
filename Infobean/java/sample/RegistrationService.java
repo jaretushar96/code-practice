@@ -27,7 +27,8 @@ public class RegistrationService
     }
 
 
-    public void printBanner() {
+    public void printBanner() 
+    {
         System.out.println("\n\t======++++++======== Visitor Management ======++++++======");
         System.out.println("\t \tCurrent Visitors inside: " + currentInside() + " / " + 5);
         System.out.println("\t=========================================================");
