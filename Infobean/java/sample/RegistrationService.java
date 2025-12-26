@@ -34,7 +34,8 @@ public class RegistrationService
         System.out.println("\t=========================================================");
     }
 
-        public void register(Scanner sc){
+        public void register(Scanner sc)
+        {
         try {
             if (currentInside() >= 5) {
                 System.out.println("\tCapacity full (5). Cannot register new visitors now.");
