@@ -3,7 +3,8 @@ import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 
-public class OverstayMonitor implements Runnable {
+public class OverstayMonitor implements Runnable 
+{
 
     private final List<Visitor> list;
     private volatile boolean running = true;
