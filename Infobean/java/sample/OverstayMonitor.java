@@ -10,7 +10,8 @@ public class OverstayMonitor implements Runnable
     private volatile boolean running = true;
     private static final DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm");
 
-    public OverstayMonitor(List<Visitor> list) {
+    public OverstayMonitor(List<Visitor> list) 
+    {
         this.list = list;
     }
 
