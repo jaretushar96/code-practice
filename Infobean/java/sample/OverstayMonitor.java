@@ -23,7 +23,8 @@ public class OverstayMonitor implements Runnable
             try 
             {
                 Thread.sleep(60000); 
-            } catch (InterruptedException e) {
+            } catch (InterruptedException e) 
+            {
                 Thread.currentThread().interrupt();
                 break;
             }
