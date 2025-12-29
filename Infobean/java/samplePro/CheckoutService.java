@@ -21,7 +21,8 @@ public class CheckoutService
 
         Visitor v = map.get(id);
 
-        if (v == null) {
+        if (v == null) 
+            {
             System.out.println("Not found.");
             return;
         }
