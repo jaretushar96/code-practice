@@ -7,7 +7,8 @@ public class CheckoutService
     private List<Visitor> list;
     private Map<Integer, Visitor> map;
 
-    public CheckoutService(List<Visitor> list, Map<Integer, Visitor> map) {
+    public CheckoutService(List<Visitor> list, Map<Integer, Visitor> map) 
+    {
         this.list = list;
         this.map = map;
     }
