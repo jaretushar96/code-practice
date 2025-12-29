@@ -1,7 +1,8 @@
 import java.time.*;
 import java.util.*;
 
-public class CheckoutService {
+public class CheckoutService 
+{
 
     private List<Visitor> list;
     private Map<Integer, Visitor> map;
