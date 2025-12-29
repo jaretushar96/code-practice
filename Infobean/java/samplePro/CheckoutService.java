@@ -27,7 +27,8 @@ public class CheckoutService
             return;
         }
 
-        if (v.getStatus().equals("OUT")) {
+        if (v.getStatus().equals("OUT"))
+             {
             System.out.println("Already OUT.");
             return;
         }
