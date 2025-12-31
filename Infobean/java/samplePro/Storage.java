@@ -10,7 +10,8 @@ public class Storage
     private static final DateTimeFormatter fmt =
             DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm");
 
-    public static void saveAll(List<Visitor> list) {
+    public static void saveAll(List<Visitor> list)
+     {
         try (BufferedWriter bw = new BufferedWriter(new FileWriter(FILE))) {
 
             for (Visitor v : list) {
