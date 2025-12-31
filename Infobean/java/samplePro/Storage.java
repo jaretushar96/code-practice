@@ -3,7 +3,8 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 
-public class Storage {
+public class Storage 
+{
 
     private static final String FILE = "visitors.txt";
     private static final DateTimeFormatter fmt =
