@@ -15,12 +15,14 @@ public class Storage
         try (BufferedWriter bw = new BufferedWriter(new FileWriter(FILE))) 
         {
 
-            for (Visitor v : list) {
+            for (Visitor v : list) 
+                {
                 bw.write(v.toString());
                 bw.newLine();
             }
 
-        } catch (Exception e) {
+        } catch (Exception e)
+         {
             System.out.println("Error saving: " + e.getMessage());
         }
     }
