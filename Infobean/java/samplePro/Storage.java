@@ -35,7 +35,8 @@ public static void loadAll(List<Visitor> list, Map<Integer, Visitor> map)
         try (BufferedReader br = new BufferedReader(new FileReader(f))) {
 
             String line;
-            while ((line = br.readLine()) != null) {
+            while ((line = br.readLine()) != null) 
+                {
 
                 String[] p = line.split("\\|");
                 if (p.length != 12) continue;
