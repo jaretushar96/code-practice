@@ -12,7 +12,8 @@ public class Storage
 
     public static void saveAll(List<Visitor> list)
      {
-        try (BufferedWriter bw = new BufferedWriter(new FileWriter(FILE))) {
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter(FILE))) 
+        {
 
             for (Visitor v : list) {
                 bw.write(v.toString());
