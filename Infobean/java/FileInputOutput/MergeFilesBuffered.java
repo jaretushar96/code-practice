@@ -10,7 +10,8 @@ public class MergeFilesBuffered
 
         try (BufferedWriter bw = new BufferedWriter(new FileWriter("merged.txt"));
              BufferedReader br1 = new BufferedReader(new FileReader("file1.txt"));
-             BufferedReader br2 = new BufferedReader(new FileReader("file2.txt"))) {
+             BufferedReader br2 = new BufferedReader(new FileReader("file2.txt"))) 
+             {
 
             String line;
 
