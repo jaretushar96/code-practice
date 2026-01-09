@@ -29,7 +29,8 @@ public class MergeFilesBuffered
 
             System.out.println("Files merged successfully (buffer method).");
 
-        } catch (IOException e) {
+        } catch (IOException e) 
+        {
             e.printStackTrace();
         }
     }
