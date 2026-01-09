@@ -6,7 +6,8 @@ import java.io.IOException;
 
 public class MergeFilesBuffered 
 {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
 
         try (BufferedWriter bw = new BufferedWriter(new FileWriter("merged.txt"));
              BufferedReader br1 = new BufferedReader(new FileReader("file1.txt"));
