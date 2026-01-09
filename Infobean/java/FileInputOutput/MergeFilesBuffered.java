@@ -4,7 +4,8 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class MergeFilesBuffered {
+public class MergeFilesBuffered 
+{
     public static void main(String[] args) {
 
         try (BufferedWriter bw = new BufferedWriter(new FileWriter("merged.txt"));
