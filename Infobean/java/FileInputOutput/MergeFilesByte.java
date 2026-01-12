@@ -4,7 +4,8 @@ import java.io.IOException;
 
 public class MergeFilesByte 
 {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
          
         try (FileOutputStream fos = new FileOutputStream("merged.txt");
              FileInputStream fis1 = new FileInputStream("file1.txt");
