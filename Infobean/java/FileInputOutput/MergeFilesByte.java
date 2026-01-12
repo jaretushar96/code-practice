@@ -9,7 +9,8 @@ public class MergeFilesByte
          
         try (FileOutputStream fos = new FileOutputStream("merged.txt");
              FileInputStream fis1 = new FileInputStream("file1.txt");
-             FileInputStream fis2 = new FileInputStream("file2.txt")) {
+             FileInputStream fis2 = new FileInputStream("file2.txt")) 
+             {
 
             int b;
 
