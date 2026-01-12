@@ -23,13 +23,15 @@ public class MergeFilesByte
             fos.write('\n');
 
             // Copy file2
-            while ((b = fis2.read()) != -1) {
+            while ((b = fis2.read()) != -1)
+                 {
                 fos.write(b);
             }
 
             System.out.println("Files merged successfully (byte method).");
 
-        } catch (IOException e) {
+        } catch (IOException e) 
+        {
             e.printStackTrace();
         }
     }
