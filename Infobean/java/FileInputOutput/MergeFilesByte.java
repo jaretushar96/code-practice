@@ -14,7 +14,8 @@ public class MergeFilesByte
             int b;
 
             // Copy file1
-            while ((b = fis1.read()) != -1) {
+            while ((b = fis1.read()) != -1) 
+                {
                 fos.write(b);
             }
 
