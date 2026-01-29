@@ -2,7 +2,8 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class MergeFilesChar {
+public class MergeFilesChar
+ {
     public static void main(String[] args) {
 
         try (FileWriter fw = new FileWriter("merged.txt");
