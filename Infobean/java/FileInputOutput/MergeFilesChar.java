@@ -13,7 +13,8 @@ public class MergeFilesChar
 
             int ch;
 
-            while ((ch = fr1.read()) != -1) {
+            while ((ch = fr1.read()) != -1) 
+                {
                 fw.write(ch);
             }
 
