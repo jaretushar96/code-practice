@@ -27,7 +27,8 @@ public class MergeFilesChar
 
             System.out.println("Files merged successfully (char method).");
 
-        } catch (IOException e) {
+        } 
+        catch (IOException e) {
             e.printStackTrace();
         }
     }
