@@ -2,7 +2,8 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class ReadStringBuffer {
+public class ReadStringBuffer 
+{
     public static void main(String[] args) {
 
         StringBuffer sb = new StringBuffer();
