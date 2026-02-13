@@ -4,7 +4,8 @@ import java.io.IOException;
 
 public class ReadStringBuffer 
 {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
 
         StringBuffer sb = new StringBuffer();
         
