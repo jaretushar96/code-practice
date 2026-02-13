@@ -15,7 +15,8 @@ public class ReadStringBuffer
                 BufferedReader br = new BufferedReader(new FileReader("demo.txt"));
             String line;
 
-            while ((line = br.readLine()) != null) {
+            while ((line = br.readLine()) != null)
+                 {
             //    sb.append(line).append("\n");
              System.out.println(line);
             }
