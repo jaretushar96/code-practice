@@ -22,7 +22,8 @@ public class ReadStringBuffer
             }
               
             br.close(); 
-        } catch (IOException e) {
+        }
+         catch (IOException e) {
             e.printStackTrace();
         }
         // System.out.println("File Content:");
