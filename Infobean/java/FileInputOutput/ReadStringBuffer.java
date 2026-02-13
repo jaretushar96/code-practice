@@ -10,7 +10,8 @@ public class ReadStringBuffer
         StringBuffer sb = new StringBuffer();
         
 
-        try  {
+        try 
+         {
                 BufferedReader br = new BufferedReader(new FileReader("demo.txt"));
             String line;
 
