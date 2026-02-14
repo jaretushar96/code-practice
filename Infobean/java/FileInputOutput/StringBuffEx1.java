@@ -18,7 +18,8 @@ public class StringBuffEx1
             fw.write(data);
               fw.close(); 
             System.out.println("File written successfully.");
-        } catch (IOException e) {
+        } 
+        catch (IOException e) {
             e.printStackTrace();
         }
     }
