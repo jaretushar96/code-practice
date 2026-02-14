@@ -11,7 +11,8 @@ public class StringBuffEx1
 
      Scanner sc=new Scanner(System.in);
 
-        try  {
+        try 
+         {
               FileWriter fw = new FileWriter("demo.txt");
                System.out.println("Enter text to write in file:");
             String data = sc.nextLine();
