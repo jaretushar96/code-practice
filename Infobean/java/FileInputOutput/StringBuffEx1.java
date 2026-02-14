@@ -4,7 +4,8 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class StringBuffEx1 {
+public class StringBuffEx1
+ {
     public static void main(String[] args) {
 
      Scanner sc=new Scanner(System.in);
