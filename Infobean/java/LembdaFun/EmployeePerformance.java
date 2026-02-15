@@ -8,7 +8,8 @@ class Employee
     long salary;
     int performance;
 
-    public Employee(String name, int age, long salary, int performance) {
+    public Employee(String name, int age, long salary, int performance) 
+    {
         this.name = name;
         this.age = age;
        
