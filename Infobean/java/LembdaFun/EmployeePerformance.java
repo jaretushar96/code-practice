@@ -22,7 +22,8 @@ class Employee
 
 }
 
-public class EmployeePerformance {
+public class EmployeePerformance 
+{
    public static void main(String[] args) {
     Scanner sc=new Scanner(System.in);
     HashMap <String,Employee> emp1=new HashMap<>();
