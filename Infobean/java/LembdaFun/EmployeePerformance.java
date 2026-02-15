@@ -1,6 +1,7 @@
 import java.util.HashMap;
 import java.util.Scanner;
-class Employee{
+class Employee
+{
     String name;
     int age;
 
